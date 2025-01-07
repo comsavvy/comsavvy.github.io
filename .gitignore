@@ -1,1 +1,4 @@
 /.quarto/
+
+# Temporal Ignore Output Folder
+/outputs/
