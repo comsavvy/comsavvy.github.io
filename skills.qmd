@@ -1,0 +1,49 @@
+---
+title: Skills
+format: html
+---
+
+::::{.panel-tabset .skills-page}
+
+## Programming Skills
+
+- **Python**: Leveraging expertise in Python to build scalable, efficient solutions for data analysis, machine learning, and web development. Skilled in using popular libraries like `Pandas`, `NumPy`, and `Scikit-learn` to extract insights and solve real-world problems.
+- **R**: Adept at statistical computing and crafting visually compelling graphics using R. Proficient in creating reproducible research pipelines and leveraging packages such as `ggplot2` and `dplyr` for advanced data analysis.
+- **SQL**: Experienced in managing relational databases, optimising complex queries, and performing advanced data manipulations to support business intelligence and reporting.
+- **Java**: Gained foundational knowledge and practical experience during computer science studies, with an understanding of object-oriented principles and algorithm design.
+- **C**: Acquired a solid background in low-level programming, memory management, and system development through academic coursework.
+- **C++**: Built a foundational understanding of high-performance computing and object-oriented programming paradigms during computer science education.
+- **JavaScript**: Familiar with creating interactive web applications and gaining practical knowledge in modern libraries and frameworks through academic projects.
+
+## Business Intelligence
+
+- **Google Sheets**: Proficient in leveraging Google Sheets for collaborative data analysis, creating automated workflows with scripts, and generating shareable reports.
+- **Power BI**: Proficient in developing interactive dashboards and custom visualisations that drive data-informed decisions and strategic planning.
+- **Tableau**: Demonstrated expertise in transforming raw data into engaging, actionable insights through sophisticated Tableau visualisations.
+- **MS-Excel**: Advanced proficiency in Excel for data analysis, including the use of pivot tables, advanced formulas, and VBA for task automation.
+
+## Analytical Skills
+
+- **Data Visualisation**: Skilled in presenting complex datasets in a concise and intuitive manner, empowering stakeholders to make informed decisions.
+- **Statistical Analysis**: Leveraging statistical methodologies to extract trends, test hypotheses, and provide actionable recommendations.
+- **Predictive Modelling**: Skilled in creating predictive models that accurately forecast outcomes using tools like Python, R, and machine learning techniques.
+- **Data Cleaning**: Deep understanding of data preprocessing techniques to ensure accuracy and integrity in analysis.
+- **Automation**: Proficient in automating workflows and repetitive tasks, improving efficiency and minimising errors.
+
+## Soft Skills
+
+- **Team Collaboration**: Proven ability to collaborate across departments, fostering a team-oriented approach to achieve shared objectives.
+- **Problem-Solving**: Leveraging analytical acumen to diagnose issues, evaluate options, and implement effective solutions in challenging scenarios.
+- **Data Storytelling**: Adept at translating data-driven insights into compelling stories and presentations that resonate with diverse audiences.
+- **Effective Communication**: Strong interpersonal and technical communication skills, ensuring alignment between technical and non-technical stakeholders.
+- **Leadership**: Experience leading projects to successful completion by motivating teams, setting clear goals, and fostering professional growth.
+
+## Documentation Tools
+
+- **Markdown**: Skilled in writing clean and structured documentation using Markdown syntax to create professional and shareable documents.
+- **Quarto**: Skilled in crafting dynamic, interactive documents and reproducible reports tailored to diverse audiences, from technical teams to business stakeholders.
+- **Jupyter**: Proficient in creating and managing interactive computational notebooks to document and share workflows, analyses, and visualisations effectively.
+- **Git**: Skilled in version control practices, including branching strategies and collaborative workflows, to ensure seamless team integration and project continuity.
+- **Microsoft Word**: Proficient in creating polished, professional reports and templates with attention to detail and clarity.
+
+::::
