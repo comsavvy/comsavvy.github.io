@@ -1,5 +1,24 @@
 ---
 format: html
+
+include-in-header:
+  - text: |
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 ---
 
 # Welcome to my website!
+
+<p>I'm <span class="typed"></span></p>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var options = {
+      strings: ["a Data Scientist", "a Data Analyst", "a Power BI Expert", "a Python Instructor", "a Freelancer", "an IT Automation Expert"],
+      typeSpeed: 70,
+      backSpeed: 30,
+      loop: true
+    };
+
+    var typed = new Typed(".typed", options);
+  });
+</script>
