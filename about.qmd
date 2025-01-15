@@ -1,6 +1,6 @@
 ---
 title: "Olusola Timothy Ogundepo"
-image: /imgs/olusola_px.png
+image: "./imgs/olusola_px_bg.jpg"
 about:
     template: solana
     image-width: 24em
