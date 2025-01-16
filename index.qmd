@@ -1,21 +1,37 @@
 ---
 format: html
-
 include-in-header:
   - text: |
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <link rel="stylesheet" href="style.css">
 ---
 
-# Welcome to my website!
+::::{.column-screen-inset #homepage}
 
-<p>I'm <span class="typed"></span></p>
+:::{.specilize}
+<span class="typed"></span>
+:::
+
+:::{.welcome}
+Welcome to my website!
+:::
+<!-- 
+:::{.myName}
+My name is
+::: -->
+
+# Olusola Timothy Ogundepo {.name}
+
+
+
+::::
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var options = {
-      strings: ["a Data Scientist", "a Data Analyst", "a Power BI Expert", "a Python Instructor", "a Freelancer", "an IT Automation Expert"],
+      strings: ["A Data Scientist", "A Data Analyst", "A Power BI Expert", "A Python Instructor", "A Freelancer", "An IT Automation Expert"],
       typeSpeed: 70,
-      backSpeed: 30,
+      backSpeed: 190,
       loop: true
     };
 
