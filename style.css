@@ -1,0 +1,41 @@
+#homepage {
+    .specilize {
+        font-size: 4rem;
+        font-family: Arial;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #007bff;
+
+        .typed {
+            font-weight: bold;
+        }
+    }
+
+    .welcome {
+        font-size: 4rem;
+        font-family: Impact;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #007bff;
+    }
+
+    /* .myName {
+        font-size: 3rem;
+        font-family: Arial;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #007bff;
+    } */
+
+    .name {
+        text-align: center;
+        font-size: 5rem;
+        font-family: Arial;
+        justify-content: center;
+        align-items: center;
+        color: #007bff;
+    }
+}
