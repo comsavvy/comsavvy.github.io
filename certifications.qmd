@@ -1,45 +1,29 @@
 ---
-title: Certifications
-format: html
+include-in-header:
+    - text: |
+        <link rel="stylesheet" href="cv/style.css">
 ---
-:::::{.column-body}
 
+:::::{.column-page-right}
+# Certification {.certification}
+
+::::: {.certificate_margin}
 ::::{.columns}
 :::{.column width="70%"}
-#### Working in a Digital World: Professional Skills – IBM Skill Build
+#### [Working in a Digital World: Professional Skills – IBM Skill Build](https://www.credly.com/badges/a295edb3-c524-47bb-b238-153c8f8a60f2)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2024](https://www.credly.com/badges/a295edb3-c524-47bb-b238-153c8f8a60f2)
+#### 2024
 :::
 
+:::{.cert_experience}
 The Professional Skills learning plan covered in this professional certificate include: Collaborate Effectively, Present with Purpose, Interpersonal Skills, Deliver Quality Work with Agility, and Solving Problems with Critical and Creative Thinking. These skills have successfully shaped my professional abilities in various facet of digital environment.
+:::
 
 :::{.column width="70%"}
-#### Google IT Automation with Python Specialisation – Google/Coursera
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### [2022](https://www.coursera.org/account/accomplishments/specialization/certificate/VY75DWS2G3RE)
-:::
-
-This specialisation course developed by Google covers intricate of Python and some other tools for IT automation. The courses covered include: Crash Course on Python, Using Python to Interact with the Operating System, Introduction to Git and GitHub, Troubleshooting and Debugging Techniques, Configuration Management and the Cloud, Automating Real-World Tasks with Python
-
-:::{.column width="70%"}
-#### Power BI Super Users Workshop – Enterprise DNA
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### [2022](https://www.udemy.com/certificate/UC-f18a6376-354e-4754-8623-0ff74e075399/)
-:::
-
-This workshop focused on optimising key features of the Power BI suite. It covered mastering the four pillars of Power BI Desktop: data loading and transformation, data modelling, DAX calculations, and report development. The course enhanced my skills in building analytical models, utilising advanced DAX techniques, creating compelling reports, and implementing best practices for Power BI within organisations.
-
-:::{.column width="70%"}
-#### Microsoft Excel Power Pivot [^1^](https://www.goskills.com/Profile/comsavvy/Certificates/191954) & Power Query [^2^](https://www.goskills.com/Profile/comsavvy/Certificates/192247) – GoSkills.com
+#### [Google IT Automation with Python Specialisation – Google/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/VY75DWS2G3RE)
 :::
 :::{.column width="20%"}
 :::
@@ -47,107 +31,154 @@ This workshop focused on optimising key features of the Power BI suite. It cover
 #### 2022
 :::
 
+:::{.cert_experience}
+This specialisation course developed by Google covers intricate of Python and some other tools for IT automation. The courses covered include: Crash Course on Python, Using Python to Interact with the Operating System, Introduction to Git and GitHub, Troubleshooting and Debugging Techniques, Configuration Management and the Cloud, Automating Real-World Tasks with Python
+:::
+
+:::{.column width="70%"}
+#### [Power BI Super Users Workshop – Enterprise DNA](https://www.udemy.com/certificate/UC-f18a6376-354e-4754-8623-0ff74e075399/)
+:::
+:::{.column width="20%"}
+:::
+:::{.column width="10%"}
+#### 2022
+:::
+
+:::{.cert_experience}
+This workshop focused on optimising key features of the Power BI suite. It covered mastering the four pillars of Power BI Desktop: data loading and transformation, data modelling, DAX calculations, and report development. The course enhanced my skills in building analytical models, utilising advanced DAX techniques, creating compelling reports, and implementing best practices for Power BI within organisations.
+:::
+
+:::{.column width="70%"}
+#### [Microsoft Excel Power Pivot & Power Query – GoSkills.com](https://www.goskills.com/Profile/comsavvy/Certificates/191954)
+:::
+:::{.column width="20%"}
+:::
+:::{.column width="10%"}
+#### 2022
+:::
+
+:::{.cert_experience}
 These two courses focused on advanced Excel features, Power Pivot and Power Query. It covered techniques for data modelling, data transformation, and creating advanced reports in Excel. The training enhanced my skills in manipulating large datasets, performing complex calculations, and automating data workflows, significantly improving efficiency in data analysis tasks.
+:::
 
 :::{.column width="70%"}
-#### Mastering DAX Calculations – Enterprise DNA
+#### [Mastering DAX Calculations – Enterprise DNA](https://enterprise-dna.verified.cv/en/verify/92974995891854)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2022](https://enterprise-dna.verified.cv/en/verify/92974995891854)
+#### 2022
 :::
 
+:::{.cert_experience}
 This course focused on advanced Data Analysis Expressions (DAX). It covered complex functions, optimisation techniques, and best practices for efficient data modelling. The training enhanced my ability to perform intricate data analysis, create sophisticated measures, and develop high-performing analytical solutions.
+:::
 
 :::{.column width="70%"}
-#### Spreadsheet Fundamentals Track – Datacamp
+#### [Spreadsheet Fundamentals Track – Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/c958490a68b88ee8902aec7c6770f03a3e1645a8)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2022](https://www.datacamp.com/statement-of-accomplishment/track/c958490a68b88ee8902aec7c6770f03a3e1645a8)
+#### 2022
 :::
 
+:::{.cert_experience}
 This professional certificate comprised five courses: Introduction to Google Sheets, Data Analysis in Google Sheets, Intermediate Google Sheets, Pivot Tables in Google Sheets, and Data Visualisation in Google Sheets. These courses enhanced my ability to effectively manipulate, analyse and visualise data using Google Sheets.
+:::
 
 :::{.column width="70%"}
-#### Importing & Cleaning Data with Python Track – Datacamp
+#### [Importing & Cleaning Data with Python Track – Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/07187005c51f319a236411aaf4f7b8a87e76a503)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2022](https://www.datacamp.com/statement-of-accomplishment/track/07187005c51f319a236411aaf4f7b8a87e76a503)
+#### 2022
 :::
 
+:::{.cert_experience}
 This professional certificate enhanced my skills in importing data into Python from various sources -including Excel, SQL, SAS, web, and APIs—cleaning and diagnosing dirty data, reshaping DataFrames using pandas, and applying data manipulation techniques in a real-world project such as analysing Airbnb market trends.
+:::
 
 :::{.column width="70%"}
-#### Applied Data Science II: Machine Learning & Statistical Analysis (with honors) – World Quant University
+#### [Applied Data Science II: Machine Learning & Statistical Analysis (with honors) – World Quant University](https://www.youracclaim.com/badges/28cfa17e-1c24-48ce-84cc-b4e6bae4c2e4)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2021](https://www.youracclaim.com/badges/28cfa17e-1c24-48ce-84cc-b4e6bae4c2e4)
+#### 2021
 :::
 
+:::{.cert_experience}
 This professional course focused on advanced data science topics, including machine learning algorithms and statistical analysis techniques. It enhanced my skills in building predictive models, performing statistical inference, and applying machine learning methods to real-world datasets.
+:::
 
 :::{.column width="70%"}
-#### Time Series Analysis and Forecasting using Python – Udemy
+#### [Time Series Analysis and Forecasting using Python – Udemy](https://www.udemy.com/certificate/UC-81e58c57-c931-4c32-b5b0-e04b6db53998/)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2021](https://www.udemy.com/certificate/UC-81e58c57-c931-4c32-b5b0-e04b6db53998/)
+#### 2021
 :::
 
+:::{.cert_experience}
 Acquired practical skills in time series analysis and forecasting using Python. Learned to manipulate time-stamped data, identify trends and seasonal patterns, and build predictive models with libraries like pandas and statsmodels. This course enhanced my ability to forecast future data points based on historical trends.
+:::
 
 :::{.column width="70%"}
-#### TensorFlow for AI, Machine Learning, and Deep Learning – DeepLearning.AI/Coursera
+#### [TensorFlow for AI, Machine Learning, and Deep Learning – DeepLearning.AI/Coursera](https://www.coursera.org/account/accomplishments/certificate/LKRZD2N8B5U5)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2020](https://www.coursera.org/account/accomplishments/certificate/LKRZD2N8B5U5)
+#### 2020
 :::
 
+:::{.cert_experience}
 This course provided a comprehensive introduction to TensorFlow, an open-source machine learning framework, which enhanced my skills in building and training neural network models.
+:::
 
 :::{.column width="70%"}
-#### Excel Skills for Business Specialisation – Macquarie University/Coursera
+#### [Excel Skills for Business Specialisation – Macquarie University/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2020](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ)
+#### 2020
 :::
 
+:::{.cert_experience}
 This specialisation enhanced my Excel skills for business applications, covering advanced formulas, data modelling, pivot tables, and interactive dashboards—improving my ability to efficiently analyze and visualize business data.
+:::
 
 :::{.column width="70%"}
-#### SQL for Data Science – University of California (UC Davis)/Coursera
+#### [SQL for Data Science – University of California (UC Davis)/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2020](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ)
+#### 2020
 :::
 
+:::{.cert_experience}
 This course provided a comprehensive introduction to SQL for data science. It covered querying databases, performing data analysis, and working with real-world datasets. The training enhanced my ability to manage and analyze data using SQL, improving my efficiency in data-driven decision-making.
+:::
 
 :::{.column width="70%"}
-#### Applied Data Science I: Scientific Computing & Python for Data Science – World Quant University
+#### [Applied Data Science I: Scientific Computing & Python for Data Science – World Quant University](https://www.youracclaim.com/badges/51075f3f-07f3-45dd-8e99-ce2f3b7fff77/public_url)
 :::
 :::{.column width="20%"}
 :::
 :::{.column width="10%"}
-#### [2019](https://www.youracclaim.com/badges/51075f3f-07f3-45dd-8e99-ce2f3b7fff77/public_url)
+#### 2019
 :::
 
+:::{.cert_experience}
 This course focused on scientific computing and Python for data science. It covered essential Python libraries such as NumPy, pandas, and Matplotlib, and their applications in data analysis. The training enhanced my skills in scientific computing, data manipulation, and visualization, enabling me to tackle complex data science problems.
+:::
 
 ::::
 
 :::::
+::::::
