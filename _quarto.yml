@@ -10,19 +10,17 @@ website:
     background: primary
     foreground: light
     pinned: true
-    logo: imgs/comsavvy_logo_new.jpg
     
     left:
       - text: Home
         href: index.qmd
       - text: About
         href: about.qmd
-      - text: Certifications
-        href: certifications.qmd
-      - skills.qmd
+      - text: CV
+        href: cv/index.qmd
   
     tools:
-      - icon: x
+      - icon: twitter
         href: https://www.x.com/comsavvy_ogp
       - icon: linkedin
         href: https://www.linkedin.com/in/comsavvy
@@ -30,16 +28,19 @@ website:
         href: https://www.facebook.com/comsavvy
       - icon: github
         href: https://www.github.com/comsavvy
+      - icon: box-arrow-in-right
+        menu:
+        - text: Certifications
+          href: certifications.qmd
+        - skills.qmd
       
   page-footer: 
-    left: "© CC-By Olusola Ogundepo" 
-    center: "[COMSAVVY](./about.qmd)"
+    left: "© Olusola Ogundepo" 
+    center: "[COMSAVVY](about.qmd)"
     right: "Website Created with [Quarto](https://quarto.org/)"
 
 format:
   html:
     theme: 
-      light: cosmo
-      dark: [cosmo, custom.scss]
-    # css: styles.css
-
+      light: [cosmo, custom_light.scss]
+      dark: [cosmo, custom_dark.scss]
