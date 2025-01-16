@@ -24,8 +24,6 @@ website:
         href: https://www.x.com/comsavvy_ogp
       - icon: linkedin
         href: https://www.linkedin.com/in/comsavvy
-      - icon: facebook
-        href: https://www.facebook.com/comsavvy
       - icon: github
         href: https://www.github.com/comsavvy
       - icon: box-arrow-in-right
@@ -36,7 +34,6 @@ website:
       
   page-footer: 
     left: "© Olusola Ogundepo" 
-    center: "[COMSAVVY](about.qmd)"
     right: "Website Created with [Quarto](https://quarto.org/)"
 
 format:
