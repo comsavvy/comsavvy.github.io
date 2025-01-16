@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+
+// Lists on Skills Page
+.skills-page ul,
+.skills-page ol {
+    line-height: 1.7; // Increased line spacing for lists only on skills page
+    // margin-top: 12px;
+}
+
+.certificate_margin {
+    margin-left: 5%;
+}
+
+.certification_margin {
+    margin-top: 0;
+}
+
+.cert_experience {
+    margin-right: 20%;
+    color: black;
+}
