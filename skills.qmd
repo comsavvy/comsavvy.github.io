@@ -1,6 +1,8 @@
 ---
 title: Skills
-format: html
+include-in-header:
+    - text: |
+        <link rel="stylesheet" href="cv/style.css">
 ---
 
 ::::{.panel-tabset .skills-page}
