@@ -1,0 +1,24 @@
+---
+title: Curriculum vitae
+excerpt: My current CV
+date: 2025-01-15
+published-title: CV last updated
+comments: false
+cv:
+  pdf: Olusola_O_CV.pdf
+include-in-header:
+    - text: |
+        <link rel="stylesheet" href="style.css">
+---
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg" href="Olusola_O_CV.pdf" target="_blank">
+    <i class="bi bi-cloud-download"></i>&ensp;Download CV
+  </a>
+</p>
+
+<div class="embed-container">
+  <iframe src="Olusola_O_CV.pdf" style="border: 0.5px"></iframe>
+</div>
+```
