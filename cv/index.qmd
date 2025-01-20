@@ -6,11 +6,9 @@ published-title: CV last updated
 comments: false
 cv:
   pdf: Olusola_O_CV.pdf
-include-in-header:
-    - text: |
-        <link rel="stylesheet" href="style.css">
 ---
 
+:::: {#cv-styles}
 ```{=html}
 <p class="text-center">
   <a class="btn btn-primary btn-lg" href="Olusola_O_CV.pdf" target="_blank">
@@ -22,3 +20,4 @@ include-in-header:
   <iframe src="Olusola_O_CV.pdf" style="border: 0.5px"></iframe>
 </div>
 ```
+::::

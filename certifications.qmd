@@ -1,7 +1,5 @@
 ---
-include-in-header:
-    - text: |
-        <link rel="stylesheet" href="cv/style.css">
+format: html
 ---
 
 :::::{.column-page-right}
