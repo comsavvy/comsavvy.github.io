@@ -1,5 +1,68 @@
 ---
-title: News
+format: html
 ---
 
-All updates about me falls here
+:::: {#news-page}
+# Latest News {style="margin-top: 0;"}
+
+### DevFest Ibadan 2024 Conference
+**Date:** 2024
+
+I attended the DevFest Ibadan 2024 Conference, an annual event organized by the Google Developer Group (GDG) Ibadan. The conference was a celebration of innovation, knowledge-sharing, and community building. It provided a platform for tech professionals, students, and enthusiasts to connect, exchange ideas, and learn about the latest trends in technology. My participation allowed me to gain valuable insights into emerging technologies and network with like-minded individuals.
+
+### University of Ilorin 239th Inaugural Lecture
+**Date:** 2023
+
+I had the privilege of attending the University of Ilorin's 239th Inaugural Lecture, delivered by Professor Rasheed Gbenga Jimoh from the Department of Computer Science. The lecture, titled “Deconstructing the Crawling Mindsets: Combating Security Challenges of the Net-Centric Computing,” provided deep insights into the challenges and solutions in modern computing security. It was an enlightening experience that broadened my understanding of net-centric security issues.
+
+### Deep Learning IndabaX Nigeria 2022 Conference
+**Date:** 2022
+
+I participated in the Deep Learning IndabaX Nigeria 2022 Conference, a program designed to strengthen the machine learning community in Africa. The event emphasized knowledge-sharing and capacity-building in machine learning (ML) and artificial intelligence (AI). It was an excellent opportunity to learn from experts, engage in discussions, and expand my understanding of AI applications.
+
+## Publications & Highlights
+
+### Machine Learning Model Testing: A Comprehensive Guide to Effective Validation
+**Published on Medium:** 2024
+
+In 2024, I published an article on Medium titled “Machine Learning Model Testing: A Comprehensive Guide to Effective Validation.” This guide detailed effective methods for validating machine learning models and offered practical insights for professionals seeking to enhance their model performance.
+
+### Practical Guide to Testing Machine Learning Models in Python
+**Published on Medium:** 2020
+
+Earlier in 2020, I authored a Medium article titled “Practical Guide to Testing Machine Learning Models in Python.” This step-by-step guide provided developers with practical techniques to test and improve their machine learning models using Python.
+
+## Achievements
+
+In my academic and professional journey, I have been honored with several awards and recognitions, including:
+
+- Being named the **FestMan Learning Hub Top Performing and Engaging Intern Award** in 2024.
+
+- Receiving the **Spark9ja x DataCamp Scholarship** in 2024.
+
+- Being recognized as the **Top Performing Student in the Department of Computer Science and Education** in 2023.
+
+- Earning the **ALX-T Data Analyst Nanodegree Scholarship** in 2022.
+
+- Receiving the **DSN Artificial Intelligence DataCamp Scholarship** in 2020.
+
+- Benefiting from **Coursera's Premium Grant through the Coursera for Campus Initiative** during the COVID-19 pandemic in 2020.
+
+## Volunteer Activities
+
+### Instructor - Thomas Adewumi University (TAU) AI General Assembly
+**Date:** June 2024
+
+As an instructor at the Thomas Adewumi University AI General Assembly, I introduced final-year students to programming, focusing on Python and R. I designed engaging presentation slides to facilitate understanding, managed shared code repositories on GitHub, and ensured version control. Additionally, I taught students how to use Power BI for data transformation and dashboard creation, helping them enhance their data visualization skills. I also guided students in creating professional LinkedIn profiles to improve their career prospects.
+
+### Facilitator – Lagos Bureau of Statistics Power BI Training
+**Date:** May 2024
+
+I served as a facilitator for the Lagos Bureau of Statistics Power BI Training, where I helped employees enhance their data analysis and visualization skills. Through practical sessions, I guided participants on data transformation, modeling, and the creation of comprehensive Power BI dashboards. My efforts contributed to improving their proficiency in handling complex data projects.
+
+### Volunteer – Deep Learning IndabaX Nigeria
+**Date:** June 2023
+
+As a volunteer for the Deep Learning IndabaX Nigeria, I organized sessions focused on the functionalities and applications of AI tools. I raised awareness about AI among students and professionals, coordinated with speakers, and ensured the smooth flow of events. My involvement helped foster greater understanding and interest in AI within the community.
+
+::::

@@ -2,4 +2,48 @@
 title: Projects
 ---
 
-All my projects falls here
+### Deep Learning for Personalized Book Recommendation System
+
+- **Objective:** Develop a robust book recommendation system using advanced deep learning techniques.
+
+- **Approach:** Applied collaborative filtering and transformer models to create personalized recommendations.
+
+- **Dataset:** Conducted an in-depth assessment of the Bookcrossing dataset, addressing data quality issues to ensure high integrity for model training.
+
+- **Outcome:** Optimized the system by experimenting with various models, selecting the most effective approach, and gaining critical insights for future AI research.
+
+---
+
+### Student Performance Evaluation
+
+- **Objective:** Analyze key factors influencing student performance.
+
+- **Approach:** Extracted and transformed data from over 600 features, focusing on 29 key indicators for streamlined analysis.
+
+- **Analysis:** Utilized multivariate visualization techniques to explore the impact of parental involvement on student performance.
+
+- **Outcome:** Provided actionable insights into educational outcomes, showcasing expertise in data wrangling and statistical analysis.
+
+---
+
+### Analysis on WeRateDog Tweets
+
+- **Objective:** Analyze and visualize trends within the WeRateDog Twitter dataset.
+
+- **Approach:** Addressed data quality and tidiness issues to ensure dataset accuracy.
+
+- **Analysis:** Performed detailed transformations and created visualizations to extract meaningful patterns.
+
+- **Outcome:** Contributed to social media trend analysis by uncovering significant insights from the data.
+
+---
+
+### The Movies Database Analysis
+
+- **Objective:** Explore and analyze trends in the movies database.
+
+- **Approach:** Formulated over 8 insightful analysis questions to guide project objectives.
+
+- **Dataset Preparation:** Conducted comprehensive data wrangling and cleaning, addressing both quality and tidiness issues to ensure accuracy and coherence.
+
+- **Outcome:** Successfully answered 100% of the analysis questions, using diverse visualization techniques to present clear and comprehensive insights.
