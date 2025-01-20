@@ -6,11 +6,12 @@ language:
   search-text-placeholder: Search
 
 website:
-  title: "**COMSAVVY**"
-  
-  favicon: imgs/fav_icon.jpg
+  favicon: imgs/favicon.png
   back-to-top-navigation: true
   navbar:
+    title: false
+    logo: imgs/web-logo.png
+    logo-alt: "Comsavvy logo"
     background: primary
     foreground: light
     pinned: true
@@ -54,6 +55,6 @@ website:
 format:
   html:
     theme: 
-      light: [cosmo, modes/custom_light.scss]
-      dark: [cosmo, modes/custom_dark.scss]
+      light: [cosmo]
+      dark: [cosmo, custom_dark.scss]
     css: style.css
