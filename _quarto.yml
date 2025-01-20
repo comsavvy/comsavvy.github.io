@@ -39,5 +39,5 @@ website:
 format:
   html:
     theme: 
-      light: [cosmo, custom_light.scss]
-      dark: [cosmo, custom_dark.scss]
+      light: [cosmo, modes/custom_light.scss]
+      dark: [cosmo, modes/custom_dark.scss]
