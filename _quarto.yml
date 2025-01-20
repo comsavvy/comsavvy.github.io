@@ -2,8 +2,12 @@ project:
   type: website
   output-dir: outputs
 
+language: 
+  search-text-placeholder: Search
+
 website:
   title: "**COMSAVVY**"
+  
   favicon: imgs/fav_icon.jpg
   back-to-top-navigation: true
   navbar:
@@ -16,9 +20,13 @@ website:
         href: index.qmd
       - text: About
         href: about.qmd
+      - text: News
+        href: news.qmd
       - text: CV
         href: cv/index.qmd
-  
+      - text: Projects
+        href: projects.qmd
+
     tools:
       - icon: twitter
         href: https://www.x.com/comsavvy_ogp
@@ -26,11 +34,18 @@ website:
         href: https://www.linkedin.com/in/comsavvy
       - icon: github
         href: https://www.github.com/comsavvy
+      - icon: envelope
+        href: "mailto::olusolaogundepo"
       - icon: box-arrow-in-right
         menu:
         - text: Certifications
           href: certifications.qmd
         - skills.qmd
+  
+  search: 
+    location: navbar
+    type: textbox
+    copy-button: true
       
   page-footer: 
     left: "© Olusola Ogundepo" 
@@ -41,3 +56,4 @@ format:
     theme: 
       light: [cosmo, modes/custom_light.scss]
       dark: [cosmo, modes/custom_dark.scss]
+    css: style.css
