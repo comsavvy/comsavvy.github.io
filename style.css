@@ -2,6 +2,10 @@
     color: #007bff;
 }
 
+.remove-margin {
+    margin-top: 0;
+}
+
 #homepage {
     .specilize {
         font-size: 4rem;
@@ -25,21 +29,20 @@
         color: #007bff;
     }
 
-    /* .myName {
-        font-size: 3rem;
-        font-family: Arial;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: #007bff;
-    } */
-
     .name {
         text-align: center;
         font-size: 5rem;
         font-family: Arial;
         justify-content: center;
         align-items: center;
+        color: #007bff;
+    }
+}
+
+#news-page {
+
+    h1,
+    h2 {
         color: #007bff;
     }
 }
@@ -59,5 +62,23 @@
         left: 0;
         width: 100%;
         height: 100%;
+    }
+}
+
+#certification {
+    h4 {
+        margin-top: 0;
+    }
+
+    .cert_experience {
+        margin-right: 20%;
+    }
+}
+
+#skills-page {
+
+    ul,
+    ol {
+        line-height: 1.7;
     }
 }

@@ -62,23 +62,3 @@ footer {
     color: $body-color;
     border-top: 1px solid lighten($body-bg, 10%);
 }
-
-// Certification Section
-
-// Lists on Skills Page
-.skills-page ul,
-.skills-page ol {
-    line-height: 1.7; // Increased line spacing for lists only on skills page
-    // margin-top: 12px;
-}
-
-.certificate_margin {
-    h4 {
-        margin-top: 0;
-    }
-}
-
-.cert_experience {
-    margin-right: 20%;
-    color: $body-color;
-}

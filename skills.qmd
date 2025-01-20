@@ -2,7 +2,7 @@
 title: Skills
 ---
 
-::::{.panel-tabset .skills-page}
+::::{.panel-tabset #skills-page}
 
 ## Programming Skills
 

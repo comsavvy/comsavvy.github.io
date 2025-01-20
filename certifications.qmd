@@ -3,9 +3,9 @@ title: Certifications
 format: html
 ---
 
-:::::{.column-page-right}
+:::::{.column-page-right #certification}
 
-::::{.columns .certificate_margin}
+::::{.columns}
 :::{.column width="70%"}
 #### [Working in a Digital World: Professional Skills – IBM Skill Build](https://www.credly.com/badges/a295edb3-c524-47bb-b238-153c8f8a60f2)
 :::
