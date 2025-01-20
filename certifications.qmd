@@ -1,12 +1,11 @@
 ---
+title: Certifications
 format: html
 ---
 
 :::::{.column-page-right}
-# Certification {.certification}
 
-::::: {.certificate_margin}
-::::{.columns}
+::::{.columns .certificate_margin}
 :::{.column width="70%"}
 #### [Working in a Digital World: Professional Skills – IBM Skill Build](https://www.credly.com/badges/a295edb3-c524-47bb-b238-153c8f8a60f2)
 :::
@@ -177,6 +176,4 @@ This course focused on scientific computing and Python for data science. It cove
 :::
 
 ::::
-
-:::::
 ::::::
