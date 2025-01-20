@@ -10,14 +10,14 @@ cv:
 
 :::: {#cv-styles}
 ```{=html}
-<p class="text-center">
-  <a class="btn btn-primary btn-lg" href="Olusola_O_CV.pdf" target="_blank">
+<p id="cv-container" class="text-center">
+  <a class="btn btn-primary btn-lg" href="Olusola_O_CV.pdf" target="_blank" rel="noopener noreferrer">
     <i class="bi bi-cloud-download"></i>&ensp;Download CV
   </a>
 </p>
 
-<div class="embed-container">
+<p class="embed-container">
   <iframe src="Olusola_O_CV.pdf" style="border: 0.5px"></iframe>
-</div>
+</p>
 ```
 ::::
