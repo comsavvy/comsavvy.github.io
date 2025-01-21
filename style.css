@@ -9,38 +9,69 @@ footer {
     }
 }
 
+#remove-margins {
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    margin-bottom: 12px;
+}
+
 #homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+    color: #007bff;
 
-    .specilize,
+    .specialize {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .typed {
+        font-weight: bold;
+    }
+
     .welcome {
-        font-size: 4rem;
-        font-family: Arial;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: #007bff;
-
-        .typed {
-            font-weight: bold;
-        }
+        font-size: 2.5rem;
+        margin-top: 10px;
     }
 
     .name {
-        text-align: center;
-        font-size: 5rem;
-        font-family: Arial;
-        justify-content: center;
-        align-items: center;
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+}
+
+#about-page {
+    p {
+        text-align: justify;
+    }
+
+    h2 {
+        margin-bottom: 3px;
         color: #007bff;
     }
 }
 
 #news-page {
+    text-align: justify;
 
     h1,
     h2 {
         color: #007bff;
     }
+
+
+}
+
+#project-page {
+    text-align: justify;
 }
 
 #cv-styles {
@@ -68,6 +99,7 @@ footer {
 
     .cert_experience {
         margin-right: 20%;
+        text-align: justify;
     }
 }
 
@@ -76,5 +108,6 @@ footer {
     ul,
     ol {
         line-height: 1.7;
+        text-align: justify;
     }
 }
