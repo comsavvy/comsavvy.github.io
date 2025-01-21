@@ -3,7 +3,9 @@ format: html
 ---
 
 :::: {#news-page}
-# Latest News {style="margin-top: 0;"}
+# Latest News
+
+---
 
 ### DevFest Ibadan 2024 Conference
 **Date:** 2024
