@@ -2,7 +2,9 @@
 title: Projects
 ---
 
-### Deep Learning for Personalized Book Recommendation System
+---
+
+### [Deep Learning for Personalized Book Recommendation System](https://github.com/comsavvy/Book-recommendation-system-project){.external target="_blank"}
 
 - **Objective:** Develop a robust book recommendation system using advanced deep learning techniques.
 
@@ -12,9 +14,7 @@ title: Projects
 
 - **Outcome:** Optimized the system by experimenting with various models, selecting the most effective approach, and gaining critical insights for future AI research.
 
----
-
-### Student Performance Evaluation
+### [Student Performance Evaluation](https://github.com/comsavvy/Students-Performance-Evaluation){.external target="_blank"}
 
 - **Objective:** Analyze key factors influencing student performance.
 
@@ -24,9 +24,7 @@ title: Projects
 
 - **Outcome:** Provided actionable insights into educational outcomes, showcasing expertise in data wrangling and statistical analysis.
 
----
-
-### Analysis on WeRateDog Tweets
+### [Analysis on WeRateDog Tweets](https://github.com/comsavvy/WeRateDogs-Wrangling-and-Visualization-Analysis){.external target="_blank"}
 
 - **Objective:** Analyze and visualize trends within the WeRateDog Twitter dataset.
 
@@ -36,9 +34,7 @@ title: Projects
 
 - **Outcome:** Contributed to social media trend analysis by uncovering significant insights from the data.
 
----
-
-### The Movies Database Analysis
+### [The Movies Database Analysis](https://github.com/comsavvy/Movies-dataset-Analysis){.external target="_blank"}
 
 - **Objective:** Explore and analyze trends in the movies database.
 

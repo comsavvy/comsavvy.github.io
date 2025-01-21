@@ -1,13 +1,12 @@
 ---
 title: Certifications
-format: html
 ---
 
 :::::{.column-page-right #certification}
 
 ::::{.columns}
 :::{.column width="70%"}
-#### [Working in a Digital World: Professional Skills – IBM Skill Build](https://www.credly.com/badges/a295edb3-c524-47bb-b238-153c8f8a60f2)
+#### [Working in a Digital World: Professional Skills – IBM Skill Build](https://www.credly.com/badges/a295edb3-c524-47bb-b238-153c8f8a60f2){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -20,7 +19,7 @@ The Professional Skills learning plan covered in this professional certificate i
 :::
 
 :::{.column width="70%"}
-#### [Google IT Automation with Python Specialisation – Google/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/VY75DWS2G3RE)
+#### [Google IT Automation with Python Specialisation – Google/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/VY75DWS2G3RE){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -33,7 +32,7 @@ This specialisation course developed by Google covers intricate of Python and so
 :::
 
 :::{.column width="70%"}
-#### [Power BI Super Users Workshop – Enterprise DNA](https://www.udemy.com/certificate/UC-f18a6376-354e-4754-8623-0ff74e075399/)
+#### [Power BI Super Users Workshop – Enterprise DNA](https://www.udemy.com/certificate/UC-f18a6376-354e-4754-8623-0ff74e075399/){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -46,7 +45,7 @@ This workshop focused on optimising key features of the Power BI suite. It cover
 :::
 
 :::{.column width="70%"}
-#### [Microsoft Excel Power Pivot & Power Query – GoSkills.com](https://www.goskills.com/Profile/comsavvy/Certificates/191954)
+#### [Microsoft Excel Power Pivot & Power Query – GoSkills.com](https://www.goskills.com/Profile/comsavvy/Certificates/191954){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -55,7 +54,7 @@ This workshop focused on optimising key features of the Power BI suite. It cover
 :::
 
 :::{.cert_experience}
-These two courses focused on advanced Excel features, Power Pivot and Power Query. It covered techniques for data modelling, data transformation, and creating advanced reports in Excel. The training enhanced my skills in manipulating large datasets, performing complex calculations, and automating data workflows, significantly improving efficiency in data analysis tasks.
+These two courses focused on advanced Excel features, [Power Pivot](https://www.goskills.com/Profile/comsavvy/Certificates/191954){.external target="_blank"} and [Power Query](https://www.goskills.com/Profile/comsavvy/Certificates/192247){.external target="_blank"}. It covered techniques for data modelling, data transformation, and creating advanced reports in Excel. The training enhanced my skills in manipulating large datasets, performing complex calculations, and automating data workflows, significantly improving efficiency in data analysis tasks.
 :::
 
 :::{.column width="70%"}
@@ -72,7 +71,7 @@ This course focused on advanced Data Analysis Expressions (DAX). It covered comp
 :::
 
 :::{.column width="70%"}
-#### [Spreadsheet Fundamentals Track – Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/c958490a68b88ee8902aec7c6770f03a3e1645a8)
+#### [Spreadsheet Fundamentals Track – Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/c958490a68b88ee8902aec7c6770f03a3e1645a8){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -85,7 +84,7 @@ This professional certificate comprised five courses: Introduction to Google She
 :::
 
 :::{.column width="70%"}
-#### [Importing & Cleaning Data with Python Track – Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/07187005c51f319a236411aaf4f7b8a87e76a503)
+#### [Importing & Cleaning Data with Python Track – Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/07187005c51f319a236411aaf4f7b8a87e76a503){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -98,7 +97,7 @@ This professional certificate enhanced my skills in importing data into Python f
 :::
 
 :::{.column width="70%"}
-#### [Applied Data Science II: Machine Learning & Statistical Analysis (with honors) – World Quant University](https://www.youracclaim.com/badges/28cfa17e-1c24-48ce-84cc-b4e6bae4c2e4)
+#### [Applied Data Science II: Machine Learning & Statistical Analysis (with honors) – World Quant University](https://www.youracclaim.com/badges/28cfa17e-1c24-48ce-84cc-b4e6bae4c2e4){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -111,7 +110,7 @@ This professional course focused on advanced data science topics, including mach
 :::
 
 :::{.column width="70%"}
-#### [Time Series Analysis and Forecasting using Python – Udemy](https://www.udemy.com/certificate/UC-81e58c57-c931-4c32-b5b0-e04b6db53998/)
+#### [Time Series Analysis and Forecasting using Python – Udemy](https://www.udemy.com/certificate/UC-81e58c57-c931-4c32-b5b0-e04b6db53998/){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -124,7 +123,7 @@ Acquired practical skills in time series analysis and forecasting using Python. 
 :::
 
 :::{.column width="70%"}
-#### [TensorFlow for AI, Machine Learning, and Deep Learning – DeepLearning.AI/Coursera](https://www.coursera.org/account/accomplishments/certificate/LKRZD2N8B5U5)
+#### [TensorFlow for AI, Machine Learning, and Deep Learning – DeepLearning.AI/Coursera](https://www.coursera.org/account/accomplishments/certificate/LKRZD2N8B5U5){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -137,7 +136,7 @@ This course provided a comprehensive introduction to TensorFlow, an open-source 
 :::
 
 :::{.column width="70%"}
-#### [Excel Skills for Business Specialisation – Macquarie University/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ)
+#### [Excel Skills for Business Specialisation – Macquarie University/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -150,7 +149,7 @@ This specialisation enhanced my Excel skills for business applications, covering
 :::
 
 :::{.column width="70%"}
-#### [SQL for Data Science – University of California (UC Davis)/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ)
+#### [SQL for Data Science – University of California (UC Davis)/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
@@ -163,7 +162,7 @@ This course provided a comprehensive introduction to SQL for data science. It co
 :::
 
 :::{.column width="70%"}
-#### [Applied Data Science I: Scientific Computing & Python for Data Science – World Quant University](https://www.youracclaim.com/badges/51075f3f-07f3-45dd-8e99-ce2f3b7fff77/public_url)
+#### [Applied Data Science I: Scientific Computing & Python for Data Science – World Quant University](https://www.youracclaim.com/badges/51075f3f-07f3-45dd-8e99-ce2f3b7fff77/public_url){.external target="_blank"}
 :::
 :::{.column width="20%"}
 :::
