@@ -1,11 +1,13 @@
 ---
-format: html
+format:
+  html: 
+    page-layout: full
 include-in-header:
   - text: |
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 ---
 
-::::{.column-screen-inset #homepage}
+::::{#homepage}
 
 :::{.specilize}
 <span class="typed"></span>
@@ -14,14 +16,8 @@ include-in-header:
 :::{.welcome}
 Welcome to my website!
 :::
-<!-- 
-:::{.myName}
-My name is
-::: -->
 
 # Olusola Timothy Ogundepo {.name}
-
-
 
 ::::
 
