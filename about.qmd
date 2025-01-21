@@ -1,31 +1,55 @@
 ---
 title: "Olusola Timothy Ogundepo"
-image: "imgs/olusola_px_bg.jpg"
 about:
-    template: solana
-    image-width: 24em
-    image-shape: round
-    links:
-        - icon: linkedin
-          text: Linkedin
-          href: https://www.linkedin.com/in/comsavvy
-        - icon: twitter
-          text: Twitter
-          href: https://www.x.com/comsavvy_ogp
-        - icon: github
-          text: GitHub
-          href: https://www.github.com/comsavvy
-        - icon: envelope
-          text: Gmail
-          href: "mailto::olusolaogundepo"
+  template: broadside
+  image: "imgs/olusola_px_bg.jpg"
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/comsavvy
+    - icon: twitter
+      text: Twitter
+      href: https://www.x.com/comsavvy_ogp
+    - icon: github
+      text: GitHub
+      href: https://www.github.com/comsavvy
+    - icon: envelope
+      text: Gmail
+      href: "mailto::olusolaogundepo"
 ---
 
-As an adept data scientist with over five years of experience exploring, detecting, and analyzing data, I excel at using various analytical tools and skills to bring innovative and insightful ideas to drive strategic decision-making and bring about positive impacts and results. 
+:::: {#about-page}
 
-I hold a bachelor's degree in computer science and education, where I graduated as the overall best-performing student in the department, leading to being recognized with an award. During my academic program, I got many scholarships to study and acquire skills online, where I acquired many hard and soft skills. As a data scientist and analyst, my top recognized skills, which I have used to accomplish many projects, include Python programming, Microsoft Power BI, Tableau, SQL, Microsoft Excel, Google Sheets, Git, and Bash scripting. I am an advanced user of these tools. 
+As a skilled data scientist with over five years of experience, I specialise in exploring, detecting, and analysing data to drive strategic decision-making and deliver impactful results. My expertise lies in leveraging advanced analytical tools and methodologies to generate innovative insights that empower organisations to achieve their goals. I am proficient in Python programming, Microsoft Power BI, Tableau, SQL, Microsoft Excel, Google Sheets, Git, and Bash scripting, enabling me to excel in diverse projects requiring technical precision and creative problem-solving.
 
-I recognize the importance of helping and networking with professionals who share the same goals and mindset within the data science community to influence positively and help the upcoming ones. With the mindset of giving back to society, I have volunteered and participated in many data analytics programs, machine learning events, and AI professional gatherings, both as a facilitator and member. 
+I hold a bachelor's degree in Computer Science and Education, where I graduated as the top-performing student in my department and was honoured with an academic excellence award. Beyond my formal education, I have earned multiple scholarships to pursue additional certifications and training, equipping me with a well-rounded blend of hard and soft skills. My passion for data science extends beyond individual achievements; I actively engage in the community as a facilitator, participant, and mentor at data analytics workshops, machine learning events, and AI forums. I believe in the power of collaboration, teamwork, and knowledge-sharing to foster innovation and support aspiring professionals.
 
-As a proactive and assertive team player, I understand the importance of collaboration in achieving positive and innovative results. As the saying goes, “Two heads are better than one." I am dedicated to collaborative teamwork and actively contribute to the success of team projects.
+## EDUCATION
 
-I am passionate about using data analytics, machine learning, and artificial intelligence skills to develop solutions to real-world problems. Feel free to reach out to me for productive and professional conversations!
+:::{#remove-margins}
+**University of Ilorin, Ilorin, Nigeria**
+ 
+B.Sc. (Ed.) Computer Science | Oct, 2018 - Oct, 2023
+ 
+Achievements: Best Graduating Student in the Department of Computer Science and Education
+:::
+
+:::{#remove-margins}
+**ALX-T Data Analyst Nanodegree  – Udacity**
+
+Completed: Oct 2022
+
+Achievements: Among the Top 5 candidates in Adeniran’s team that successfully completed all projects on time
+:::
+
+::::
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var element = document.querySelector(".quarto-about-broadside.column-page");
+    if (element) {
+      element.classList.remove("column-page");
+      element.classList.add("column-screen-inset");
+    }
+  });
+</script>
