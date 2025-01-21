@@ -2,8 +2,11 @@
     color: #007bff;
 }
 
-.remove-margin {
-    margin-top: 0;
+footer {
+    .nav-footer {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 #homepage {
