@@ -54,6 +54,10 @@ website:
 
 format:
   html:
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    
     theme: 
       light: [cosmo]
       dark: [cosmo, custom_dark.scss]
