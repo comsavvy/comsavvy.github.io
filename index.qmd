@@ -14,7 +14,7 @@ include-in-header:
 :::
 
 :::{.welcome}
-Welcome to my website!
+**Welcome to my website!**
 :::
 
 # Olusola Timothy Ogundepo {.name}

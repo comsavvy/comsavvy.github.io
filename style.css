@@ -10,7 +10,9 @@ footer {
 }
 
 #homepage {
-    .specilize {
+
+    .specilize,
+    .welcome {
         font-size: 4rem;
         font-family: Arial;
         text-align: center;
@@ -21,15 +23,6 @@ footer {
         .typed {
             font-weight: bold;
         }
-    }
-
-    .welcome {
-        font-size: 4rem;
-        font-family: Impact;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: #007bff;
     }
 
     .name {
