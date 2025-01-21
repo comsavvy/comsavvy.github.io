@@ -9,12 +9,12 @@ include-in-header:
 
 ::::{#homepage}
 
-:::{.specilize}
+:::{.specialize}
 <span class="typed"></span>
 :::
 
 :::{.welcome}
-**Welcome to my website!**
+**Welcome to my professional portfolio!**
 :::
 
 # Olusola Timothy Ogundepo {.name}
@@ -26,10 +26,10 @@ include-in-header:
     var options = {
       strings: ["A Data Scientist", "A Data Analyst", "A Power BI Expert", "A Python Instructor", "A Freelancer", "An IT Automation Expert"],
       typeSpeed: 70,
-      backSpeed: 190,
+      backSpeed: 50,
       loop: true
     };
 
-    var typed = new Typed(".typed", options);
+    new Typed(".typed", options);
   });
-</script>
+  </script>
