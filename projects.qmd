@@ -4,6 +4,8 @@ title: Projects
 
 ---
 
+::: {#project-page}
+
 ### [Deep Learning for Personalized Book Recommendation System](https://github.com/comsavvy/Book-recommendation-system-project){.external target="_blank"}
 
 - **Objective:** Develop a robust book recommendation system using advanced deep learning techniques.
@@ -43,3 +45,5 @@ title: Projects
 - **Dataset Preparation:** Conducted comprehensive data wrangling and cleaning, addressing both quality and tidiness issues to ensure accuracy and coherence.
 
 - **Outcome:** Successfully answered 100% of the analysis questions, using diverse visualization techniques to present clear and comprehensive insights.
+
+:::
