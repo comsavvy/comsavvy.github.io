@@ -3,18 +3,10 @@
 $body-bg: #121212 !default; // Dark background
 $body-color: #ffffff !default; // White text
 $link-color: #c5dbf0 !default; // Link colour
-$primary: #007bff !default; // Primary colour (blue from your screenshot)
-
-// General body styling
-body {
-    background-color: $body-bg;
-    color: $body-color;
-}
+$primary-color: #007bff !default; // Primary colour (blue from your screenshot)
 
 // Navbar
 .navbar {
-    background-color: $primary;
-    color: $body-color;
 
     .navbar-brand,
     .nav-link {
@@ -26,12 +18,12 @@ body {
     }
 
     .dropdown-menu {
-        background-color: $primary;
+        background-color: $primary-color;
         color: $body-color;
     }
 
     .dropdown-menu a:hover {
-        background-color: $primary;
+        background-color: $primary-color;
         color: $link-color;
     }
 }
@@ -45,20 +37,13 @@ body {
 .nav-tabs .nav-link.active {
     background-color: lighten($body-bg, 10%);
     color: $body-color !important;
-    border-color: $primary;
+    border-color: $primary-color;
 }
 
-// Code blocks
-pre,
-code {
-    background-color: darken($body-bg, 4%);
-    color: $body-color;
-    border: 1px solid lighten($body-bg, 10%);
-}
-
-// Footer
-footer {
-    background-color: darken($body-bg, 15%);
-    color: $body-color;
-    border-top: 1px solid lighten($body-bg, 10%);
+// Skill page (Annoted)
+#skills-page {
+    code {
+        background-color: lighten($body-bg, 10%);
+        color: $link-color;
+    }
 }
