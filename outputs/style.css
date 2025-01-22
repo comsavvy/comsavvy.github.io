@@ -1,0 +1,116 @@
+.title {
+    color: #007bff;
+}
+
+footer {
+    .nav-footer {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+#remove-margins {
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    margin-bottom: 12px;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+    .button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+}
+
+#about-page {
+    p {
+        text-align: justify;
+    }
+
+    h2 {
+        margin-bottom: 3px;
+        color: #007bff;
+    }
+}
+
+#news-page {
+    text-align: justify;
+
+    h1,
+    h2 {
+        color: #007bff;
+    }
+}
+
+#project-page {
+    text-align: justify;
+}
+
+#cv-styles {
+    .embed-container {
+        position: relative;
+        padding-bottom: 100%;
+        height: 0;
+        overflow: hidden;
+        max-width: 70%;
+    }
+
+    .embed-container iframe {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        width: 100%;
+        height: 90%;
+    }
+}
+
+#certification {
+    h4 {
+        margin-top: 0;
+    }
+
+    .cert_experience {
+        margin-right: 20%;
+        text-align: justify;
+    }
+}
+
+#skills-page {
+
+    ul li,
+    ol li {
+        line-height: 1.7;
+        text-align: justify;
+        margin-bottom: 12px;
+    }
+}
+
+#error-page {
+    .message {
+        font-size: 1.5rem;
+        color: #007bff;
+    }
+}
