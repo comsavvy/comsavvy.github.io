@@ -23,28 +23,23 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     font-family: Arial, sans-serif;
-    margin-top: 60px;
-    color: #007bff;
 
-    .specialize {
-        font-size: 2.5rem;
-        margin-top: 20px;
+    .button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        cursor: pointer;
     }
 
-    .typed {
-        font-weight: bold;
-    }
-
-    .welcome {
-        font-size: 2.5rem;
-        margin-top: 10px;
-    }
-
-    .name {
-        font-size: 3rem;
-        margin-top: 10px;
+    .button:hover {
+        background-color: #0056b3;
     }
 }
 
@@ -66,8 +61,6 @@ footer {
     h2 {
         color: #007bff;
     }
-
-
 }
 
 #project-page {
@@ -77,18 +70,20 @@ footer {
 #cv-styles {
     .embed-container {
         position: relative;
-        padding-bottom: 129%;
+        padding-bottom: 100%;
         height: 0;
         overflow: hidden;
-        max-width: 100%;
+        max-width: 70%;
     }
 
     .embed-container iframe {
         position: absolute;
-        top: 0;
-        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
         width: 100%;
-        height: 100%;
+        height: 90%;
     }
 }
 
@@ -105,9 +100,17 @@ footer {
 
 #skills-page {
 
-    ul,
-    ol {
+    ul li,
+    ol li {
         line-height: 1.7;
         text-align: justify;
+        margin-bottom: 12px;
+    }
+}
+
+#error-page {
+    .message {
+        font-size: 1.5rem;
+        color: #007bff;
     }
 }
