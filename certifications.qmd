@@ -2,7 +2,7 @@
 title: Certifications
 ---
 
-:::::{.column-page-right #certification}
+:::::{#certification}
 
 ::::{.columns}
 :::{.column width="70%"}
