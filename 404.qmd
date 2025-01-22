@@ -1,0 +1,14 @@
+---
+title: Page Not Found
+---
+::::{#error-page}
+
+:::{.mx-auto .text-center}
+![](imgs/404-page.png){width=350 height=350}
+:::
+
+:::{.text-center .message}
+The page you are looking for doesn't seem to exist. Please navigate back to the homepage or use the search bar to find the information you need. Thank you for visiting!
+:::
+
+::::
