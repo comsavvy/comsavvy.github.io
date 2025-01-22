@@ -8,23 +8,22 @@ $primary-color: #007bff !default; // Primary colour (blue from your screenshot)
 // Navbar
 .navbar {
 
-    .navbar-brand,
     .nav-link {
         color: $body-color;
 
         &:hover {
-            color: lighten($body-color, 30%);
+            color: darken($body-color, 10%);
         }
     }
 
     .dropdown-menu {
-        background-color: $primary-color;
+        background-color: $body-bg;
         color: $body-color;
     }
 
     .dropdown-menu a:hover {
-        background-color: $primary-color;
-        color: $link-color;
+        background-color: lighten($body-bg, 10%);
+        color: $body-color;
     }
 }
 
@@ -44,6 +43,40 @@ $primary-color: #007bff !default; // Primary colour (blue from your screenshot)
 #skills-page {
     code {
         background-color: lighten($body-bg, 10%);
+        color: $link-color;
+    }
+
+    strong {
+        color: $link-color;
+    }
+}
+
+#homepage {
+    .typed {
+        color: $link-color;
+    }
+
+    .header {
+        color: $primary-color;
+    }
+
+    .welcome {
+        color: $link-color;
+    }
+
+    .name {
+        color: $primary-color;
+    }
+}
+
+#about-page {
+    strong {
+        color: $link-color;
+    }
+}
+
+#news-page {
+    h3 {
         color: $link-color;
     }
 }
