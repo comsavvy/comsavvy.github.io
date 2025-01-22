@@ -1,5 +1,6 @@
 ---
 title: "Olusola Timothy Ogundepo"
+page-layout: full
 about:
   template: broadside
   image: "imgs/olusola_px_bg.jpg"
@@ -46,9 +47,9 @@ Achievements: Among the Top 5 candidates in Adeniran’s team that successfully 
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var element = document.querySelector(".quarto-about-broadside.column-page");
+    var element = document.querySelector(".quarto-about-broadside.column-body");
     if (element) {
-      element.classList.remove("column-page");
+      element.classList.remove("column-body");
       element.classList.add("column-screen-inset");
     }
   });

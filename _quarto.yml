@@ -9,6 +9,7 @@ website:
   favicon: imgs/favicon.png
   back-to-top-navigation: true
   navbar:
+    
     title: false
     logo: imgs/web-logo.png
     logo-alt: "Comsavvy logo"
@@ -63,3 +64,4 @@ format:
       light: [cosmo]
       dark: [cosmo, custom_dark.scss]
     css: style.css
+    page-layout: full
