@@ -1,6 +1,5 @@
 ---
 title: "Olusola Timothy Ogundepo"
-page-layout: full
 about:
   template: broadside
   image: "imgs/olusola_px_bg.jpg"
