@@ -41,7 +41,7 @@ include-in-header:
 
 :::: {#homepage}
 
-[Welcome to My Professional Portfolio!]{.header}
+[Welcome to My Website!]{.header}
 
 []{.typed}
 
