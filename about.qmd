@@ -14,7 +14,7 @@ about:
       text: GitHub
       href: https://www.github.com/comsavvy
     - icon: envelope
-      text: Gmail
+      text: Email
       href: "mailto::olusolaogundepo"
 ---
 
