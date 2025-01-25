@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 4200
 
 language: 
   search-text-placeholder: Search
@@ -52,7 +54,7 @@ website:
       
   page-footer: 
     left: "© Olusola Ogundepo" 
-    right: "Website Created with [Quarto](https://quarto.org/)"
+    right: "Built with [Quarto](https://quarto.org/)"
 
 format:
   html:
