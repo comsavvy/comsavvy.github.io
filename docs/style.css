@@ -44,10 +44,6 @@ footer {
 }
 
 #about-page {
-    p {
-        text-align: justify;
-    }
-
     h2 {
         margin-bottom: 3px;
         color: #007bff;
@@ -55,16 +51,10 @@ footer {
 }
 
 #news-page {
-    text-align: justify;
 
-    h1,
-    h2 {
+    h1 {
         color: #007bff;
     }
-}
-
-#project-page {
-    text-align: justify;
 }
 
 #cv-styles {
@@ -88,13 +78,8 @@ footer {
 }
 
 #certification {
-    h4 {
-        margin-top: 0;
-    }
-
-    .cert_experience {
-        margin-right: 20%;
-        text-align: justify;
+    h1 {
+        color: #007bff;
     }
 }
 
@@ -103,7 +88,6 @@ footer {
     ul li,
     ol li {
         line-height: 1.7;
-        text-align: justify;
         margin-bottom: 12px;
     }
 }
