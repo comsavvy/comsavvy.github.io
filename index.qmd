@@ -52,7 +52,7 @@ A data scientist who leverages advanced analytics to drive business growth, deli
 :::
   
 :::{.action}
-  [View My Projects](projects.qmd){.button}
+  [My Projects](projects.qmd){.button}
   [Contact Me](about.qmd){.button}
 :::
 ::::
