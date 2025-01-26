@@ -1,10 +1,16 @@
 ---
 pagetitle: News
+include-in-header: 
+    text: |
+        <style>
+            h3 {
+                color: #00346D;
+            }
+        </style>
 ---
 
 :::: {#news-page}
-# Latest News
-
+# **Latest News**
 ---
 
 ### DevFest Ibadan 2024 Conference
@@ -22,19 +28,39 @@ I had the privilege of attending the University of Ilorin's 239th Inaugural Lect
 
 I participated in the Deep Learning IndabaX Nigeria 2022 Conference, a program designed to strengthen the machine learning community in Africa. The event emphasized knowledge-sharing and capacity-building in machine learning (ML) and artificial intelligence (AI). It was an excellent opportunity to learn from experts, engage in discussions, and expand my understanding of AI applications.
 
-## Publications & Highlights
+# **Publications & Highlights**
+---
 
 ### Machine Learning Model Testing: A Comprehensive Guide to Effective Validation
+::: {.columns}
+::: {.column width=50%}
 **Published on Medium:** 2024
+:::
+::: {.column width=20%}
+:::
+::: {.column width=30%}
+[**View Article**](https://medium.com/@comsavvy/machine-learning-model-testing-a-comprehensive-guide-to-effective-validation-7ca473d5af9b){.external target="_blank"}
+:::
+:::
 
 In 2024, I published an article on Medium titled “Machine Learning Model Testing: A Comprehensive Guide to Effective Validation.” This guide detailed effective methods for validating machine learning models and offered practical insights for professionals seeking to enhance their model performance.
 
 ### Practical Guide to Testing Machine Learning Models in Python
+::: {.columns}
+::: {.column width=50%}
 **Published on Medium:** 2020
+:::
+::: {.column width=20%}
+:::
+::: {.column width=30%}
+[**View Article**](https://medium.com/@comsavvy/model-testing-d896722fbe28){.external target="_blank"}
+:::
+:::
 
 Earlier in 2020, I authored a Medium article titled “Practical Guide to Testing Machine Learning Models in Python.” This step-by-step guide provided developers with practical techniques to test and improve their machine learning models using Python.
 
-## Achievements
+# **Achievements**
+---
 
 In my academic and professional journey, I have been honored with several awards and recognitions, including:
 
@@ -50,7 +76,8 @@ In my academic and professional journey, I have been honored with several awards
 
 - Benefiting from **Coursera's Premium Grant through the Coursera for Campus Initiative** during the COVID-19 pandemic in 2020.
 
-## Volunteer Activities
+# **Volunteer Activities**
+---
 
 ### Instructor - Thomas Adewumi University (TAU) AI General Assembly
 **Date:** June 2024
