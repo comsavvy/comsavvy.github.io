@@ -1,178 +1,297 @@
 ---
-title: Certifications
+pagetitle: Certifications
+include-in-header: 
+    text: |
+        <style>   
+            h3 {
+                color: #00346D;
+            }
+        </style>
 ---
 
-:::::{#certification}
+:::{#certification}
+# **Soft Skills and Professional Developments** {style="margin-top:0"}
+---
 
-::::{.columns}
-:::{.column width="70%"}
-#### [Working in a Digital World: Professional Skills – IBM Skill Build](https://www.credly.com/badges/a295edb3-c524-47bb-b238-153c8f8a60f2){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2024
-:::
+### Working in a Digital World: Professional Skills  
+**Issuing Organisation:** IBM  
+**Issued Date:** July 2024  
+**Description:** A programme dedicated to enhancing professional competencies required in the digital age, including collaboration, communication, and adaptability in virtual and hybrid environments.  
+**Certificate Link:** [View Certificate](https://www.credly.com/badges/a295edb3-c524-47bb-b238-153c8f8a60f2){.external target="_blank"}
 
-:::{.cert_experience}
-The Professional Skills learning plan covered in this professional certificate include: Collaborate Effectively, Present with Purpose, Interpersonal Skills, Deliver Quality Work with Agility, and Solving Problems with Critical and Creative Thinking. These skills have successfully shaped my professional abilities in various facet of digital environment.
-:::
+### Public Speaking
+**Issuing Organisation:** GoSkills.com  
+**Issued Date:** June 2022  
+**Description:** This course focuses on enhancing professional public speaking abilities, including effective communication, speech writing, storytelling, and presentation skills. It provides practical techniques for delivering impactful and engaging presentations.  
+**Certificate Link:** [View Certificate](https://www.goskills.com/Certificate/91020697/203545){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Google IT Automation with Python Specialisation – Google/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/VY75DWS2G3RE){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2022
-:::
+### Jobberman Soft-Skills Training  
+**Issuing Organisation:** Jobberman Nigeria  
+**Issued Date:** March 2022  
+**Description:** This training covers critical soft skills such as communication, emotional intelligence, and teamwork, essential for career success in any field.  
+**Certificate Link:** [View Certificate](https://drive.google.com/file/d/1l4qya0JKXGpltyDtsuKM1eYO90v0xGlG/view?usp=sharing){.external target="_blank"}
 
-:::{.cert_experience}
-This specialisation course developed by Google covers intricate of Python and some other tools for IT automation. The courses covered include: Crash Course on Python, Using Python to Interact with the Operating System, Introduction to Git and GitHub, Troubleshooting and Debugging Techniques, Configuration Management and the Cloud, Automating Real-World Tasks with Python
-:::
+### Rock Your LinkedIn Profile  
+**Issuing Organisation:** LinkedIn  
+**Issued Date:** August 2020  
+**Description:** A workshop designed to optimise LinkedIn profiles, focusing on personal branding, networking strategies, and enhancing professional visibility.  
+**Certificate Link:** [View Certificate](https://www.linkedin.com/learning/certificates/bebf7392333f6788d11195555046e85752859cc4e34eca6f76126293bc4985c9){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Power BI Super Users Workshop – Enterprise DNA](https://www.udemy.com/certificate/UC-f18a6376-354e-4754-8623-0ff74e075399/){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2022
-:::
+### Interpersonal Skill  
+**Issuing Organisation:** IBM  
+**Issued Date:** June 2020  
+**Description:** A focused programme aimed at developing interpersonal communication, conflict resolution, and emotional intelligence for professional settings.  
+**Certificate Link:** [View Certificate](https://drive.google.com/file/d/19oQxAVUvcG0yEcG0FGZFH-Lmj4cXkRcR/view?usp=sharing){.external target="_blank"}
 
-:::{.cert_experience}
-This workshop focused on optimising key features of the Power BI suite. It covered mastering the four pillars of Power BI Desktop: data loading and transformation, data modelling, DAX calculations, and report development. The course enhanced my skills in building analytical models, utilising advanced DAX techniques, creating compelling reports, and implementing best practices for Power BI within organisations.
-:::
+### Professional Skills: Solving Problems with Critical and Creative Thinking  
+**Issuing Organisation:** IBM  
+**Issued Date:** May 2020  
+**Description:** This training addresses complex problem-solving techniques, fostering creativity and critical thinking for innovative solutions in business challenges.  
+**Certificate Link:** [View Certificate](https://drive.google.com/file/d/1-0rzd34lxFxfRhRVK5dyXtdNeYrAT2DH/view?usp=drivesdk){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Microsoft Excel Power Pivot & Power Query – GoSkills.com](https://www.goskills.com/Profile/comsavvy/Certificates/191954){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2022
-:::
 
-:::{.cert_experience}
-These two courses focused on advanced Excel features, [Power Pivot](https://www.goskills.com/Profile/comsavvy/Certificates/191954){.external target="_blank"} and [Power Query](https://www.goskills.com/Profile/comsavvy/Certificates/192247){.external target="_blank"}. It covered techniques for data modelling, data transformation, and creating advanced reports in Excel. The training enhanced my skills in manipulating large datasets, performing complex calculations, and automating data workflows, significantly improving efficiency in data analysis tasks.
-:::
+# **Foundational Data Science and Machine Learning**
+---
 
-:::{.column width="70%"}
-#### [Mastering DAX Calculations – Enterprise DNA](https://enterprise-dna.verified.cv/en/verify/92974995891854)
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2022
-:::
+### Applied Data Science II: Machine Learning and Statistical Analysis  
+**Issuing Organisation:** WorldQuant University  
+**Issued Date:** March 2021  
+**Description:** This course delves into advanced statistical methods, machine learning algorithms, and their application in data-driven decision-making. It combines theory with extensive hands-on projects.  
+**Certificate Link:** [View Certificate](https://www.credly.com/earner/earned/badge/28cfa17e-1c24-48ce-84cc-b4e6bae4c2e4){.external target="_blank"}
 
-:::{.cert_experience}
-This course focused on advanced Data Analysis Expressions (DAX). It covered complex functions, optimisation techniques, and best practices for efficient data modelling. The training enhanced my ability to perform intricate data analysis, create sophisticated measures, and develop high-performing analytical solutions.
-:::
+### General and Python Data Science  
+**Issuing Organisation:** TestDome  
+**Issued Date:** January 2021  
+**Description:** An assessment-based certification validating proficiency in Python programming and core data science techniques such as data manipulation, analysis, and visualisation.  
+**Certificate Link:** [View Certificate](https://app.testdome.com/cert/b13bf922800e4d67b1a42ad3e7b49d5e){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Spreadsheet Fundamentals Track – Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/c958490a68b88ee8902aec7c6770f03a3e1645a8){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2022
-:::
+### TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning  
+**Issuing Organisation:** Coursera  
+**Issued Date:** November 2020  
+**Description:** A technical course exploring the TensorFlow framework to design and train AI models, including deep learning applications for image and natural language processing.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/LKRZD2N8B5U5){.external target="_blank"}
 
-:::{.cert_experience}
-This professional certificate comprised five courses: Introduction to Google Sheets, Data Analysis in Google Sheets, Intermediate Google Sheets, Pivot Tables in Google Sheets, and Data Visualisation in Google Sheets. These courses enhanced my ability to effectively manipulate, analyse and visualise data using Google Sheets.
-:::
+### Streamlined Data Ingestion with pandas  
+**Issuing Organisation:** DataCamp  
+**Issued Date:** November 2020  
+**Description:** A specialised course focused on optimising data ingestion workflows using Python’s pandas library for efficient data wrangling.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/1aede5d55550645aae853d6331961a105597d2ee){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Importing & Cleaning Data with Python Track – Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/07187005c51f319a236411aaf4f7b8a87e76a503){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2022
-:::
+### Machine Learning Fundamentals with Python Track  
+**Issuing Organisation:** DataCamp  
+**Issued Date:** November 2020  
+**Description:** A focused track exploring machine learning techniques in Python, including supervised and unsupervised models, evaluation metrics, and model deployment.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/track/d8203b7f12f5511e448c4d3fe1a4c15f7e993edd){.external target="_blank"}
 
-:::{.cert_experience}
-This professional certificate enhanced my skills in importing data into Python from various sources -including Excel, SQL, SAS, web, and APIs—cleaning and diagnosing dirty data, reshaping DataFrames using pandas, and applying data manipulation techniques in a real-world project such as analysing Airbnb market trends.
-:::
+### Professional Training on Various Courses in Data Science  
+**Issuing Organisation:** Pluralsight  
+**Issued Date:** September 2020  
+**Description:** This extensive training includes multiple courses in data science, focusing on foundational and advanced concepts across data manipulation, modelling, and analytics.  
+**Certificate Link:** [View Certificate](https://app.pluralsight.com/profile/Comsavvy){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Applied Data Science II: Machine Learning & Statistical Analysis (with honors) – World Quant University](https://www.youracclaim.com/badges/28cfa17e-1c24-48ce-84cc-b4e6bae4c2e4){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2021
-:::
+### AI For Everyone  
+**Issuing Organisation:** Coursera  
+**Issued Date:** August 2020  
+**Description:** An introductory course designed to demystify AI concepts, its applications, and its ethical implications, suitable for non-technical professionals.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/HBKXMHTVNGU7){.external target="_blank"}
 
-:::{.cert_experience}
-This professional course focused on advanced data science topics, including machine learning algorithms and statistical analysis techniques. It enhanced my skills in building predictive models, performing statistical inference, and applying machine learning methods to real-world datasets.
-:::
+### SQL for Data Science  
+**Issuing Organisation:** University of California, Davis  
+**Issued Date:** July 2020  
+**Description:** A foundational course covering SQL queries, data filtering, aggregation, and database management, tailored for data science applications.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/YEQVXHQSNSCL){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Time Series Analysis and Forecasting using Python – Udemy](https://www.udemy.com/certificate/UC-81e58c57-c931-4c32-b5b0-e04b6db53998/){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2021
-:::
+### Understanding and Visualising Data with Python  
+**Issuing Organisation:** University of Michigan  
+**Issued Date:** June 2020  
+**Description:** This course introduces Python libraries such as Matplotlib and pandas for data exploration, visualisation, and storytelling.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/NPWRRQGU5W2E){.external target="_blank"}
 
-:::{.cert_experience}
-Acquired practical skills in time series analysis and forecasting using Python. Learned to manipulate time-stamped data, identify trends and seasonal patterns, and build predictive models with libraries like pandas and statsmodels. This course enhanced my ability to forecast future data points based on historical trends.
-:::
+### Applied Data Science I: Scientific Computing & Python for Data Science
+**Issuing Organisation:** WorldQuant University  
+ **Issued Date:** March 2020  
+**Description:** This course covered the intricate of scientific computing principles and Python libraries like NumPy, pandas, and Matplotlib for data manipulation and visualisation.  
+**Organization**: WorldQuant University  
+**Certificate Link:** [View Certificate](https://www.youracclaim.com/badges/51075f3f-07f3-45dd-8e99-ce2f3b7fff77/public_url){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [TensorFlow for AI, Machine Learning, and Deep Learning – DeepLearning.AI/Coursera](https://www.coursera.org/account/accomplishments/certificate/LKRZD2N8B5U5){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2020
-:::
+# Business Intelligence and Visualisation
+---
 
-:::{.cert_experience}
-This course provided a comprehensive introduction to TensorFlow, an open-source machine learning framework, which enhanced my skills in building and training neural network models.
-:::
+### Microsoft Access for Beginners  
+**Issuing Organisation:** GoSkills.com  
+**Issued Date:** May 2022  
+**Description:** This beginner-level course covers the fundamentals of Microsoft Access, including creating and managing database tables, designing forms, generating data reports, and writing queries and expressions for efficient data management.  
+**Certificate Link:** [View Certificate](https://www.goskills.com/Certificate/50024159/193680){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Excel Skills for Business Specialisation – Macquarie University/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2020
-:::
+### Microsoft Excel - Advanced  
+**Issuing Organisation:** GoSkills.com  
+**Issued Date:** May 2022  
+**Description:** This advanced course covers comprehensive data analysis techniques, data optimization strategies, and sophisticated data entry methods. It delves into the use of advanced formulas and functions, as well as advanced data visualisation tools to enhance data interpretation and presentation.  
+**Certificate Link:** [View Certificate](https://www.goskills.com/Go/fOIqMRUI4lxIZAai){.external target="_blank"}
 
-:::{.cert_experience}
-This specialisation enhanced my Excel skills for business applications, covering advanced formulas, data modelling, pivot tables, and interactive dashboards—improving my ability to efficiently analyze and visualize business data.
-:::
+### Microsoft Excel - Power Query  
+**Issuing Organisation:** GoSkills.com  
+**Issued Date:** May 2022  
+**Description:** A professional-level course focusing on the use of Power Query in Excel for data extraction, transformation, and loading (ETL). It provides practical skills to manage and automate large datasets effectively.  
+**Certificate Link:** [View Certificate](https://www.goskills.com/Profile/comsavvy/Certificates/192247){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [SQL for Data Science – University of California (UC Davis)/Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2020
-:::
+### Microsoft Excel - Power Pivot  
+**Issuing Organisation:** GoSkills.com  
+**Issued Date:** April 2022  
+**Description:** This course provides in-depth training on using Power Pivot for advanced data modeling and analysis in Excel. It covers data extraction, transformation, and loading (ETL) processes, the use of complex functions and formulas, and the application of the DAX formula language to create sophisticated business intelligence solutions.  
+**Certificate Link:** [View Certificate](https://www.goskills.com/Profile/comsavvy/Certificates/191954){.external target="_blank"}
 
-:::{.cert_experience}
-This course provided a comprehensive introduction to SQL for data science. It covered querying databases, performing data analysis, and working with real-world datasets. The training enhanced my ability to manage and analyze data using SQL, improving my efficiency in data-driven decision-making.
-:::
+### Power BI Super Users Workshop  
+**Issuing Organisation:** Udemy  
+**Issued Date:** March 2022  
+**Description:** This workshop offers advanced insights into Microsoft Power BI, teaching users to create impactful dashboards, connect complex datasets, and leverage DAX for custom metrics.  
+**Certificate Link:** [View Certificate](https://www.udemy.com/certificate/UC-f18a6376-354e-4754-8623-0ff74e075399/){.external target="_blank"}
 
-:::{.column width="70%"}
-#### [Applied Data Science I: Scientific Computing & Python for Data Science – World Quant University](https://www.youracclaim.com/badges/51075f3f-07f3-45dd-8e99-ce2f3b7fff77/public_url){.external target="_blank"}
-:::
-:::{.column width="20%"}
-:::
-:::{.column width="10%"}
-#### 2019
-:::
+### Google Sheets Fundamentals  
+**Issuing Organisation:** DataCamp  
+**Issued Date:** February 2022  
+**Description:** This course offers advanced training in Google Sheets, focusing on complex formulas, data analysis techniques, and automation to enhance productivity and data management efficiency.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/track/c958490a68b88ee8902aec7c6770f03a3e1645a8){.external target="_blank"}
 
-:::{.cert_experience}
-This course focused on scientific computing and Python for data science. It covered essential Python libraries such as NumPy, pandas, and Matplotlib, and their applications in data analysis. The training enhanced my skills in scientific computing, data manipulation, and visualization, enabling me to tackle complex data science problems.
-:::
+### Excel Skills for Business Specialisation  
+**Issuing Organisation:** Coursera  
+**Issued Date:** July 2020  
+**Description:** A multi-course specialisation providing advanced knowledge in Excel, from foundational skills to advanced functions and data visualisation capabilities.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/EH5NQAYNX7HJ){.external target="_blank"}
 
-::::
-::::::
+### Excel Skills for Business: Advanced  
+**Issuing Organisation:** Macquarie University  
+**Issued Date:** July 2020  
+**Description:** A deep dive into advanced Excel functionalities, including conditional formatting, complex formulas, and dynamic dashboards, tailored for business environments.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/WHCWH8CBWLZ4){.external target="_blank"}
+
+# **Google IT Professional**
+---
+
+### Google IT Automation with Python Specialisation  
+**Issuing Organisation:** Google  
+**Issued Date:** October 2022  
+**Description:** A comprehensive programme that covers Python scripting, automation of common system administration tasks, troubleshooting, and debugging. Participants gain the skills required to integrate Python into IT workflows.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/VY75DWS2G3RE){.external target="_blank"}
+
+### Automating Real-World Tasks with Python  
+**Issuing Organisation:** Coursera  
+**Issued Date:** October 2022  
+**Description:** This course builds on foundational Python knowledge to automate routine IT tasks, such as file management, interacting with APIs, and troubleshooting. It focuses on practical, real-world applications.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/XY54SHFSQV3M){.external target="_blank"}
+
+### Configuration Management and the Cloud  
+**Issuing Organisation:** Coursera  
+**Issued Date:** October 2022  
+**Description:** A technical course that teaches cloud infrastructure management and configuration techniques, using tools like Puppet and Chef to automate workflows.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/WJMVCVZ4JCV5){.external target="_blank"}
+
+### Using Python to Interact with the Operating System  
+**Issuing Organisation:** Google  
+**Issued Date:** August 2020  
+**Description:** This course teaches automating tasks, reading/writing files, and managing processes in Linux and Windows environments using Python.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/XCG4GW6AX2G2){.external target="_blank"}
+
+### Troubleshooting and Debugging Techniques  
+**Issuing Organisation:** Google  
+**Issued Date:** August 2020  
+**Description:** A course on advanced troubleshooting and debugging strategies for IT systems, focusing on identifying, isolating, and resolving technical issues.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/QG3G6PFDH95P){.external target="_blank"}
+
+### Crash Course on Python  
+**Issuing Organisation:** Google  
+**Issued Date:** August 2020  
+**Description:** An introductory Python course focusing on syntax, data structures, and foundational programming concepts essential for IT roles.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/Y6A74R25AAS7){.external target="_blank"}
+
+### Introduction to Git and GitHub  
+**Issuing Organisation:** Google  
+**Issued Date:** July 2020  
+**Description:** This course introduces version control systems, focusing on Git commands and GitHub workflows for collaborative software development.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/KD94NAGYMBEE){.external target="_blank"}
+
+# **Advanced Data Analytics & Visualisation**
+---
+
+### Accenture North America - Data Analytics and Visualisation Job Simulation  
+**Issuing Organisation:** Forage  
+**Issued Date:** September 2024  
+**Description:** This simulation focuses on analysing real-world data, deriving insights, and building visualisations to support strategic decision-making. The programme is designed to provide hands-on experience replicating industry-standard tools and methodologies.  
+**Certificate Link:** [View Certificate](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_DZuqbEmD3qxCKXfJ3_1725906688243_completion_certificate.pdf){.external target="_blank"}
+
+### Mastering DAX Calculations  
+**Issuing Organisation:** Enterprise DNA  
+**Issued Date:** March 2022  
+**Description:** A focused programme on mastering Data Analysis Expressions (DAX) for advanced calculations and data modelling in Power BI.  
+**Certificate Link:** [View Certificate](https://enterprise-dna.verified.cv/en/verify/92974995891854){.external target="_blank"}
+
+### Analyzing Data in Spreadsheets
+**Issuing Organisation:** DataCamp  
+**Issued Date:** February 2022  
+- **Description:** Training on spreadsheet manipulation, analysis, and visualisation, focusing on Excel and Google Sheets.  
+**Certificate Link:** [View Certificate]((https://www.datacamp.com/statement-of-accomplishment/course/1ac2ce72594ec00d417e6dc105fc28d8aaaedee9){.external target="_blank"}){.external target="_blank"}
+
+### Data Visualisation and Communication with Tableau  
+**Issuing Organisation:** Coursera  
+**Issued Date:** November 2020  
+**Description:** A course on leveraging Tableau to design impactful visualisations and effectively communicate insights drawn from complex datasets.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/DX5H6KJRCLTQ){.external target="_blank"}
+
+### Exploratory Data Analysis with Seaborn  
+**Issuing Organisation:** Coursera  
+**Issued Date:** September 2020  
+**Description:** This course provides skills in exploratory data analysis using Seaborn, with a focus on creating insightful visualisations and statistical representations.  
+**Certificate Link:** [View Certificate](https://www.coursera.org/account/accomplishments/certificate/DCS8C8C698NS){.external target="_blank"}
+
+# **Python Programming**
+---
+
+### Time Series Analysis and Forecasting using Python  
+**Issuing Organisation:** Udemy  
+**Issued Date:** January 2021  
+**Description:** A focused course on using Python for time series analysis and forecasting, covering ARIMA, SARIMA, and deep learning models for predictive analytics.  
+**Certificate Link:** [View Certificate](https://www.udemy.com/certificate/UC-81e58c57-c931-4c32-b5b0-e04b6db53998/){.external target="_blank"}
+
+### Functional Programming in Python  
+**Issuing Organisation:** Real Python  
+**Issued Date:** November 2020  
+**Description:** A comprehensive course exploring functional programming paradigms in Python, including lambda functions, map/reduce, and functional libraries.  
+**Certificate Link:** [View Certificate](https://realpython.com/certificates/03967fd1-5863-49de-9933-e37eab3aa644/){.external target="_blank"}
+
+### Cool New Features in Python 3.8  
+**Issuing Organisation:** Real Python  
+**Issued Date:** October 2020  
+**Description:** A detailed course on Python 3.8’s new features, such as the walrus operator, positional-only parameters, and new syntax updates.  
+**Certificate Link:** [View Certificate](https://realpython.com/certificates/135a7688-77a5-4369-88b8-9f17aff3d5d9/){.external target="_blank"}
+
+### Object-Oriented Programming in Python  
+**Issuing Organisation:** DataCamp  
+**Issued Date:** September 2020  
+**Description:** A technical course on implementing object-oriented principles in Python, including designing classes, inheritance, and polymorphism.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/0cff98649f67a8dde5fa8ec7380462ac8a53f9f3){.external target="_blank"}
+
+# **DataCamp Tracks and Courses**
+---
+
+### Importing & Cleaning Data with Python Track  
+**Issuing Organisation:** DataCamp  
+**Issued Date:** April 2022  
+**Description:** A specialised track on Python’s data manipulation libraries, focusing on data import, cleaning, and preparation for advanced analysis.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/track/07187005c51f319a236411aaf4f7b8a87e76a503){.external target="_blank"}
+
+### Web Scraping in Python  
+**Issuing Organisation:** DataCamp  
+**Issued Date:** November 2020  
+**Description:** This course introduces Python-based tools and frameworks for extracting, parsing, and analysing data from web pages, enabling efficient data collection.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/206e7b13521c9600fe8a45289c4bdeac498a25ab){.external target="_blank"}
+
+# **Additional Certifications**
+---
+
+### Learning Bash Scripting  
+**Issuing Organisation:** LinkedIn  
+**Issued Date:** October 2020  
+**Description:** This course provides practical knowledge of writing and debugging Bash scripts for automating Linux and Unix system tasks.  
+**Certificate Link:** [View Certificate](https://www.linkedin.com/learning/certificates/40c2dcdd4bf95cb2e7de9d28d971371771295390361bd5a89927b0ff69afb535){.external target="_blank"}
+
+:::
