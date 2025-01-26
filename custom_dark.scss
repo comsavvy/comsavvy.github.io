@@ -39,6 +39,11 @@ $primary-color: #007bff !default; // Primary colour (blue from your screenshot)
     border-color: $primary-color;
 }
 
+// Heading 3 tags
+h3 {
+    color: $link-color;
+}
+
 // Skill page (Annoted)
 #skills-page {
     code {
@@ -69,14 +74,20 @@ $primary-color: #007bff !default; // Primary colour (blue from your screenshot)
     }
 }
 
-#about-page {
-    strong {
+#news-page {
+    h3 {
         color: $link-color;
     }
 }
 
-#news-page {
+#certification {
     h3 {
+        color: $link-color;
+    }
+}
+
+#about-page {
+    strong {
         color: $link-color;
     }
 }
