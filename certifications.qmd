@@ -10,7 +10,7 @@ include-in-header:
 ---
 
 :::{#certification}
-# **Soft Skills and Professional Developments** {style="margin-top:0"}
+# **Soft Skills and Professional Developments**
 ---
 
 ### Working in a Digital World: Professional Skills  
@@ -49,7 +49,6 @@ include-in-header:
 **Description:** This training addresses complex problem-solving techniques, fostering creativity and critical thinking for innovative solutions in business challenges.  
 **Certificate Link:** [View Certificate](https://drive.google.com/file/d/1-0rzd34lxFxfRhRVK5dyXtdNeYrAT2DH/view?usp=drivesdk){.external target="_blank"}
 
-
 # **Foundational Data Science and Machine Learning**
 ---
 
@@ -59,7 +58,7 @@ include-in-header:
 **Description:** This course delves into advanced statistical methods, machine learning algorithms, and their application in data-driven decision-making. It combines theory with extensive hands-on projects.  
 **Certificate Link:** [View Certificate](https://www.credly.com/earner/earned/badge/28cfa17e-1c24-48ce-84cc-b4e6bae4c2e4){.external target="_blank"}
 
-### General and Python Data Science  
+### Python Data Science Online Test  
 **Issuing Organisation:** TestDome  
 **Issued Date:** January 2021  
 **Description:** An assessment-based certification validating proficiency in Python programming and core data science techniques such as data manipulation, analysis, and visualisation.  
@@ -126,7 +125,7 @@ include-in-header:
 ### Microsoft Excel - Advanced  
 **Issuing Organisation:** GoSkills.com  
 **Issued Date:** May 2022  
-**Description:** This advanced course covers comprehensive data analysis techniques, data optimization strategies, and sophisticated data entry methods. It delves into the use of advanced formulas and functions, as well as advanced data visualisation tools to enhance data interpretation and presentation.  
+**Description:** This advanced course covers comprehensive data analysis techniques, data optimisation strategies, and sophisticated data entry methods. It delves into the use of advanced formulas and functions, as well as advanced data visualisation tools to enhance data interpretation and presentation.  
 **Certificate Link:** [View Certificate](https://www.goskills.com/Go/fOIqMRUI4lxIZAai){.external target="_blank"}
 
 ### Microsoft Excel - Power Query  
@@ -138,7 +137,7 @@ include-in-header:
 ### Microsoft Excel - Power Pivot  
 **Issuing Organisation:** GoSkills.com  
 **Issued Date:** April 2022  
-**Description:** This course provides in-depth training on using Power Pivot for advanced data modeling and analysis in Excel. It covers data extraction, transformation, and loading (ETL) processes, the use of complex functions and formulas, and the application of the DAX formula language to create sophisticated business intelligence solutions.  
+**Description:** This course provides in-depth training on using Power Pivot for advanced data modelling and analysis in Excel. It covers data extraction, transformation, and loading (ETL) processes, the use of complex functions and formulas, and the application of the DAX formula language to create sophisticated business intelligence solutions.  
 **Certificate Link:** [View Certificate](https://www.goskills.com/Profile/comsavvy/Certificates/191954){.external target="_blank"}
 
 ### Power BI Super Users Workshop  
@@ -228,8 +227,8 @@ include-in-header:
 ### Analyzing Data in Spreadsheets
 **Issuing Organisation:** DataCamp  
 **Issued Date:** February 2022  
-- **Description:** Training on spreadsheet manipulation, analysis, and visualisation, focusing on Excel and Google Sheets.  
-**Certificate Link:** [View Certificate]((https://www.datacamp.com/statement-of-accomplishment/course/1ac2ce72594ec00d417e6dc105fc28d8aaaedee9){.external target="_blank"}){.external target="_blank"}
+**Description:** Training on spreadsheet manipulation, analysis, and visualisation, focusing on Excel and Google Sheets.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/1ac2ce72594ec00d417e6dc105fc28d8aaaedee9){.external target="_blank"}
 
 ### Data Visualisation and Communication with Tableau  
 **Issuing Organisation:** Coursera  
@@ -245,12 +244,23 @@ include-in-header:
 
 # **Python Programming**
 ---
+### Importing & Cleaning Data with Python Track  
+**Issuing Organisation:** DataCamp  
+**Issued Date:** April 2022  
+**Description:** A specialised track on Python’s data manipulation libraries, focusing on data import, cleaning, and preparation for advanced analysis.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/track/07187005c51f319a236411aaf4f7b8a87e76a503){.external target="_blank"}
 
 ### Time Series Analysis and Forecasting using Python  
 **Issuing Organisation:** Udemy  
 **Issued Date:** January 2021  
 **Description:** A focused course on using Python for time series analysis and forecasting, covering ARIMA, SARIMA, and deep learning models for predictive analytics.  
 **Certificate Link:** [View Certificate](https://www.udemy.com/certificate/UC-81e58c57-c931-4c32-b5b0-e04b6db53998/){.external target="_blank"}
+
+### Web Scraping in Python  
+**Issuing Organisation:** DataCamp  
+**Issued Date:** November 2020  
+**Description:** This course introduces Python-based tools and frameworks for extracting, parsing, and analysing data from web pages, enabling efficient data collection.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/206e7b13521c9600fe8a45289c4bdeac498a25ab){.external target="_blank"}
 
 ### Functional Programming in Python  
 **Issuing Organisation:** Real Python  
@@ -270,20 +280,20 @@ include-in-header:
 **Description:** A technical course on implementing object-oriented principles in Python, including designing classes, inheritance, and polymorphism.  
 **Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/0cff98649f67a8dde5fa8ec7380462ac8a53f9f3){.external target="_blank"}
 
-# **DataCamp Tracks and Courses**
+# R Programming Fundamentals
 ---
 
-### Importing & Cleaning Data with Python Track  
+### Intermediate R
 **Issuing Organisation:** DataCamp  
-**Issued Date:** April 2022  
-**Description:** A specialised track on Python’s data manipulation libraries, focusing on data import, cleaning, and preparation for advanced analysis.  
-**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/track/07187005c51f319a236411aaf4f7b8a87e76a503){.external target="_blank"}
+**Issued Date:** Jan 2025  
+**Description:** This course builds advanced R programming skills, covering conditional statements, loops, functions, apply functions, regular expressions, data manipulation, and time handling for efficient and dynamic data analysis.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/649616e2af5afe98d9c9911dc324fa0e107e3efc?raw=1){.external target="_blank"}
 
-### Web Scraping in Python  
+### Introduction to R
 **Issuing Organisation:** DataCamp  
-**Issued Date:** November 2020  
-**Description:** This course introduces Python-based tools and frameworks for extracting, parsing, and analysing data from web pages, enabling efficient data collection.  
-**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/206e7b13521c9600fe8a45289c4bdeac498a25ab){.external target="_blank"}
+**Issued Date:** Nov 2024  
+**Description:** An introductory course on R programming, covering foundational concepts such as vectors, factors, lists, and data frames. This course equips learners with essential skills to conduct data analysis and lays a strong foundation for further exploration in data science.  
+**Certificate Link:** [View Certificate](https://www.datacamp.com/statement-of-accomplishment/course/885fc30a6eeaa810e6a83c9de2cbf3d4f75dc2f3?raw=1){.external target="_blank"}
 
 # **Additional Certifications**
 ---
