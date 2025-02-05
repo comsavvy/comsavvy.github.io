@@ -11,7 +11,6 @@ website:
   favicon: imgs/favicon.png
   back-to-top-navigation: true
   navbar:
-    
     title: false
     logo: imgs/web-logo.png
     logo-alt: "Comsavvy logo"
@@ -36,16 +35,16 @@ website:
           - text: CV
             href: cv/index.qmd
 
-
     tools:
       - icon: twitter
         href: https://www.x.com/comsavvy_ogp
+        text: Comsavvy Twitter
       - icon: linkedin
         href: https://www.linkedin.com/in/comsavvy
+        text: Comsavvy Linkedin
       - icon: github
         href: https://www.github.com/comsavvy
-      - icon: envelope
-        href: "mailto::olusolaogundepo"
+        text: Comsavvy GitHub
   
   search: 
     location: navbar
@@ -54,8 +53,8 @@ website:
       
   page-footer: 
     left: "© Olusola Ogundepo" 
-    center: "Lagos, Nigeria"
-    right: "Built with [Quarto](https://quarto.org/)"
+    right: "Lagos, Nigeria"
+    center: "Built with [![](imgs/quarto.png){width=70px height=18px style='margin-bottom: 3px;'}](https://quarto.org/)"
 
 format:
   html:
