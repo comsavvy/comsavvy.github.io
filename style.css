@@ -9,9 +9,19 @@ footer {
     }
 }
 
+/* Navbar Logo adjustment*/
 .navbar-logo {
     max-height: 72px;
     max-width: 140px;
+}
+
+@media (max-width: 768px) {
+    .navbar-logo {
+        max-height: 50px;
+        /* Smaller height for mobile */
+        max-width: 100px;
+        /* Reduce width on mobile */
+    }
 }
 
 #remove-margins {
