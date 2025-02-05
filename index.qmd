@@ -9,34 +9,56 @@ include-in-header:
           font-weight: bold;
           color: #007bff;
           margin-bottom: 10px;
-      }
+        }
 
-      .typed {
-          font-weight: bold;
-          font-size: 2rem;
-          color: #00346D;
-      }
+        .typed {
+            font-weight: bold;
+            font-size: 2rem;
+            color: #00346D;
+        }
 
-      .typed-cursor {
-          font-size: 2rem;
-      }
+        .typed-cursor {
+            font-size: 2rem;
+        }
 
-      .name {
-          font-size: 3rem;
-          color: #007bff;
-          margin-top: 10px;
-      }
+        .name {
+            font-size: 3rem;
+            color: #007bff;
+            margin-top: 10px;
+        }
 
-      .welcome {
-          font-size: 1.5rem;
-          color: #00346D;
-          padding-bottom: 20px;
-      }
+        .welcome {
+            font-size: 1.5rem;
+            color: #00346D;
+            padding-bottom: 20px;
+        }
 
-      .actions {
-          margin-top: 30px;
-      }
+        .actions {
+            margin-top: 30px;
+        }
       </style>
+
+include-after-body:
+  - text: |
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          var options = {
+            strings: [
+              "I am a Data Scientist.", 
+              "I am a Data Analyst.", 
+              "IT Automation Expert.", 
+              "A Power BI Expert.", 
+              "A Python Instructor.", 
+              "A Freelancer."
+            ],
+            typeSpeed: 70,
+            backSpeed: 50,
+            startDelay: 1400,
+            loop: true
+          };
+          new Typed(".typed", options);
+        });
+      </script>
 ---
 
 :::: {#homepage}
@@ -50,23 +72,9 @@ include-in-header:
 :::{.welcome}
 A data scientist who leverages advanced analytics to drive business growth, deliver actionable insights, and mentor future leaders in data innovation.
 :::
-  
+
 :::{.action}
   [My Projects](projects.qmd){.button}
   [Contact Me](about.qmd){.button}
 :::
 ::::
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var options = {
-      strings: ["I am a Data Scientist.", "I am a Data Analyst.", "IT Automation Expert.", "A Power BI Expert.", "A Python Instructor.", "A Freelancer."],
-      typeSpeed: 70,
-      backSpeed: 50,
-      startDelay: 1000,
-      loop: true
-    };
-
-    new Typed(".typed", options);
-  });
-</script>
