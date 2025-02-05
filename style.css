@@ -9,6 +9,11 @@ footer {
     }
 }
 
+.navbar-logo {
+    max-height: 72px;
+    max-width: 140px;
+}
+
 #remove-margins {
     p {
         margin-top: 0;
