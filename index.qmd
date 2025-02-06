@@ -4,6 +4,13 @@ include-in-header:
   - text: |
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
       <style>
+        @media (max-width: 768px) {
+          #quarto-document-content {
+            margin-bottom: 0px;
+            margin-top: 24px;
+          }
+        }
+
         .header {
           font-size: 2.5rem;
           font-weight: bold;
@@ -23,6 +30,7 @@ include-in-header:
 
         .name {
             font-size: 3rem;
+            font-weight: bold;
             color: #007bff;
             margin-top: 10px;
         }
