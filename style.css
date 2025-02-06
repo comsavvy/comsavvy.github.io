@@ -7,6 +7,21 @@ footer {
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    @media (max-width: 768px) {
+        .nav-footer-left {
+            margin-bottom: 0px;
+        }
+
+        .nav-footer-right {
+            margin-bottom: 0px;
+        }
+
+        .nav-footer-center {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
 }
 
 /* Navbar Logo adjustment*/
@@ -56,6 +71,36 @@ footer {
     .button:hover {
         background-color: #0056b3;
     }
+
+    @media (max-width: 768px) {
+        .header {
+            font-size: 2rem;
+            padding-bottom: 10px;
+        }
+
+        .typed {
+            font-size: 1.5rem;
+            padding-bottom: 2rem;
+        }
+
+        .typed-cursor {
+            font-size: 1.5rem;
+        }
+
+        .name {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .welcome {
+            font-size: 1rem;
+            padding-bottom: 20px;
+        }
+
+        .button {
+            font-size: 1rem;
+        }
+    }
 }
 
 #about-page {
@@ -66,7 +111,6 @@ footer {
 }
 
 #news-page {
-
     h1 {
         color: #007bff;
     }
