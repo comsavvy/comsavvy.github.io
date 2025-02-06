@@ -54,7 +54,7 @@ website:
   page-footer: 
     left: "© Olusola Ogundepo" 
     right: "Lagos, Nigeria"
-    center: "Built with [![](imgs/quarto.png){width=70px height=18px style='margin-bottom: 3px;'}](https://quarto.org/)"
+    center: "Built with [![Quarto](https://quarto.org/quarto.png){width=70px height=18px style='margin-bottom: 3px;'}](https://quarto.org/)"
 
 format:
   html:
