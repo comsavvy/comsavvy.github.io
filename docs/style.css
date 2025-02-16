@@ -6,6 +6,8 @@ footer {
     .nav-footer {
         margin-top: 0;
         margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     @media (max-width: 768px) {
@@ -56,9 +58,39 @@ footer {
     justify-content: center;
     text-align: center;
     font-family: Arial, sans-serif;
+ 
+    .header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .typed {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .typed-cursor {
+        font-size: 2rem;
+    }
+
+    .name {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .welcome {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+
+    .actions {
+        margin-top: 30px;
+    }
 
     .button {
-        padding: 10px 20px;
+        padding: 10px 10px;
         font-size: 1rem;
         color: #fff;
         background-color: #007bff;
@@ -70,6 +102,17 @@ footer {
 
     .button:hover {
         background-color: #0056b3;
+    }
+    
+    .action .button {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 1s ease, transform 1s ease;
+      }
+
+    .action .button.show {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     @media (max-width: 768px) {
@@ -93,12 +136,17 @@ footer {
         }
 
         .welcome {
-            font-size: 1rem;
+            font-size: 1.2rem;
             padding-bottom: 20px;
         }
 
         .button {
             font-size: 1rem;
+        }
+
+        .spacing {
+            display: block;
+            height: 18px;
         }
     }
 }
