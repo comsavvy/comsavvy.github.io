@@ -4,69 +4,27 @@ include-in-header:
   - text: |
       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
       <style>
-        @media (max-width: 768px) {
-          #quarto-document-content {
-            margin-bottom: 0px;
-            margin-top: 24px;
+        #quarto-document-content {
+          margin-bottom: 0px;
+          margin-top: 18px;
+          
+          @media (max-width: 768px) {
+              margin-top: 24px;
           }
         }
 
-        .header {
-          font-size: 2.5rem;
-          font-weight: bold;
+        .header, .name {
           color: #007bff;
-          margin-bottom: 10px;
         }
 
-        .typed {
-            font-weight: bold;
-            font-size: 2rem;
-            color: #00346D;
-        }
-
-        .typed-cursor {
-            font-size: 2rem;
-        }
-
-        .name {
-            font-size: 3rem;
-            font-weight: bold;
-            color: #007bff;
-            margin-top: 10px;
-        }
-
-        .welcome {
-            font-size: 1.5rem;
-            color: #00346D;
-            padding-bottom: 20px;
-        }
-
-        .actions {
-            margin-top: 30px;
+        .typed, .welcome {
+            color: #00346D
         }
       </style>
 
 include-after-body:
   - text: |
-      <script>
-        document.addEventListener("DOMContentLoaded", function() {
-          var options = {
-            strings: [
-              "I am a Data Scientist.", 
-              "I am a Data Analyst.", 
-              "IT Automation Expert.", 
-              "A Power BI Expert.", 
-              "A Python Instructor.", 
-              "A Freelancer."
-            ],
-            typeSpeed: 70,
-            backSpeed: 50,
-            startDelay: 1400,
-            loop: true
-          };
-          new Typed(".typed", options);
-        });
-      </script>
+      <script src="automation.js"></script>
 ---
 
 :::: {#homepage}
@@ -82,7 +40,10 @@ A data scientist who leverages advanced analytics to drive business growth, deli
 :::
 
 :::{.action}
-  [My Projects](projects.qmd){.button}
-  [Contact Me](about.qmd){.button}
+  [<i class="bi bi-laptop"></i>&emsp;Skills](skills.qmd){.button}
+  [<i class="bi bi-journal-text"></i>&emsp;Resume](cv/index.qmd){.button}
+  []{.spacing}
+  [<i class="bi bi-bar-chart"></i>&emsp;My Projects](projects.qmd){.button}
+  [<i class="bi bi-person-circle"></i>&emsp;Contact Me](about.qmd){.button}
 :::
 ::::
