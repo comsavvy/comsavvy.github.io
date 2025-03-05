@@ -9,6 +9,7 @@ language:
 
 website:
   favicon: imgs/favicon.png
+  site-url: "https://comsavvy.github.io"
   back-to-top-navigation: true
   navbar:
     title: false
