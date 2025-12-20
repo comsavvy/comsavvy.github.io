@@ -1,0 +1,39 @@
+# Site settings
+title: Olusola Timothy Ogundepo
+description: Senior Software Engineer | AI/ML Specialist | Cloud Solutions Architect
+author: Olusola Timothy Ogundepo
+email: your-email@example.com
+url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - README.md
+  - DARK-MODE-FEATURES.md
+  - DEPLOYMENT.md
+  - TEMPLATE-OPTIONS.md
+  - TRANSFORMATION-SUMMARY.md
+  - assets/css/style-old.css
+  - assets/js/main-old.js
+
+# Include files
+include:
+  - _redirects
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

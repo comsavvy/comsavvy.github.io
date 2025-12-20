@@ -1,0 +1,9 @@
+# Redirect rules for Netlify
+# Redirect trailing slashes
+/research /research/index.html 200
+/contact /contact/index.html 200
+/personal /personal/index.html 200
+/assets/cv /assets/cv/index.html 200
+
+# 404 fallback
+/* /404.html 404

@@ -1,0 +1,87 @@
+---
+layout: default
+title: Page Not Found
+---
+  <style>
+    .error-page {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-code {
+      font-size: 8rem;
+      font-weight: 700;
+      color: #38bdf8;
+      margin: 0;
+      line-height: 1;
+    }
+    .error-message {
+      font-size: 1.5rem;
+      color: #52606d;
+      margin: 1rem 0 2rem;
+    }
+    .error-description {
+      max-width: 500px;
+      margin-bottom: 2rem;
+      color: #616e7c;
+    }
+    .home-button {
+      background-color: #0f172a;
+      color: white;
+      padding: 0.875rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    .home-button:hover {
+      background-color: #38bdf8;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="brand" href="/">
+      <img src="assets/images/web-logo.png" alt="Logo" class="logo">
+    </a>
+    <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/news/">News</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Credentials <span class="arrow">▼</span></a>
+        <div class="dropdown-content">
+          <a href="/skills/">Skills</a>
+          <a href="/projects/">Projects</a>
+          <a href="/assets/cv/">CV</a>
+        </div>
+      </li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <span class="theme-toggle-icon">🌙</span>
+    </button>  </div>
+</nav>
+
+<div class="error-page">
+  <h1 class="error-code">404</h1>
+  <p class="error-message">Page Not Found</p>
+  <p class="error-description">
+    Sorry, the page you're looking for doesn't exist or has been moved.
+    Please check the URL or return to the homepage.
+  </p>
+  <a href="/" class="home-button">Return to Homepage</a>
+</div>

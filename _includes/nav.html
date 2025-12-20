@@ -1,0 +1,31 @@
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="brand" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/images/web-logo.png" alt="Logo" class="logo">
+    </a>
+    <ul class="nav-links">
+      <li><a href="{{ site.baseurl }}/" {% if page.title == 'Home' or page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ site.baseurl }}/about/" {% if page.title == 'About' %}class="active"{% endif %}>About</a></li>
+      <li><a href="{{ site.baseurl }}/news/" {% if page.title == 'News & Updates' or page.title == 'News' %}class="active"{% endif %}>News</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Credentials <span class="arrow">▼</span></a>
+        <div class="dropdown-content">
+          <a href="{{ site.baseurl }}/skills/" {% if page.title == 'Skills' %}class="active"{% endif %}>Skills</a>
+          <a href="{{ site.baseurl }}/projects/" {% if page.title == 'Projects' %}class="active"{% endif %}>Projects</a>
+          <a href="{{ site.baseurl }}/assets/cv/" {% if page.title == 'CV' %}class="active"{% endif %}>CV</a>
+        </div>
+      </li>
+      <li><a href="{{ site.baseurl }}/contact/" {% if page.title == 'Contact' %}class="active"{% endif %}>Contact</a></li>
+    </ul>
+    <div class="nav-controls">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="theme-toggle-icon">🌙</span>
+      </button>
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</nav>
