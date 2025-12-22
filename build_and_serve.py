@@ -8,8 +8,8 @@ import os
 import re
 from pathlib import Path
 
-# Base directory
-BASE_DIR = Path('/home/guest/Downloads/Olusola-Website')
+# Base directory - use the script's directory as base
+BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / '_site'
 
 # Read include files
@@ -19,7 +19,7 @@ def read_include(name, frontmatter=None):
     if not include_path.exists():
         return ''
     
-    content = include_path.read_text()
+    content = include_path.read_text(encoding='utf-8')
     
     # Replace site.baseurl with empty string for local viewing
     content = content.replace('{{ site.baseurl }}', '')
@@ -65,11 +65,11 @@ def read_layout(name):
     layout_path = BASE_DIR / '_layouts' / f'{name}.html'
     if not layout_path.exists():
         return None
-    return layout_path.read_text()
+    return layout_path.read_text(encoding='utf-8')
 
 def process_page(file_path):
     """Process a Jekyll page and return HTML."""
-    content = file_path.read_text()
+    content = file_path.read_text(encoding='utf-8')
     
     # Extract frontmatter
     frontmatter = {}
@@ -94,7 +94,7 @@ def process_page(file_path):
     if layout_name == 'home':
         home_layout_path = BASE_DIR / '_layouts' / 'home.html'
         if home_layout_path.exists():
-            home_layout = home_layout_path.read_text()
+            home_layout = home_layout_path.read_text(encoding='utf-8')
             # Extract frontmatter from home layout
             if home_layout.startswith('---'):
                 parts = home_layout.split('---', 2)
@@ -215,7 +215,7 @@ def build_site():
         # Write to output directory
         output_path = OUTPUT_DIR / html_file
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_text(output_html)
+        output_path.write_text(output_html, encoding='utf-8')
     
     print(f'\n✅ Site built in {OUTPUT_DIR}')
 
