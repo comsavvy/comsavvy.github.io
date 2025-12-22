@@ -181,60 +181,32 @@ document.addEventListener('DOMContentLoaded', function() {
   // ===========================
   // SCROLL TO TOP BUTTON
   // ===========================
-  // Create scroll to top button
-  const scrollToTopBtn = document.createElement('button');
-  scrollToTopBtn.innerHTML = '↑';
-  scrollToTopBtn.className = 'scroll-to-top';
-  scrollToTopBtn.setAttribute('aria-label', 'Scroll to top');
-  scrollToTopBtn.style.cssText = `
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
-    z-index: 999;
-  `;
-  document.body.appendChild(scrollToTopBtn);
-
-  // Show/hide scroll to top button
-  window.addEventListener('scroll', function() {
-    if (window.pageYOffset > 300) {
-      scrollToTopBtn.style.opacity = '1';
-      scrollToTopBtn.style.visibility = 'visible';
-    } else {
-      scrollToTopBtn.style.opacity = '0';
-      scrollToTopBtn.style.visibility = 'hidden';
-    }
-  });
-
-  // Scroll to top when clicked
-  scrollToTopBtn.addEventListener('click', function() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+  const scrollToTopBtn = document.getElementById('scrollToTop');
+  
+  if (scrollToTopBtn) {
+    // Show/hide scroll to top button
+    window.addEventListener('scroll', function() {
+      if (window.pageYOffset > 400) {
+        scrollToTopBtn.classList.add('visible');
+      } else {
+        scrollToTopBtn.classList.remove('visible');
+      }
     });
-  });
 
-  // Hover effect
-  scrollToTopBtn.addEventListener('mouseenter', function() {
-    this.style.backgroundColor = '#0056b3';
-    this.style.transform = 'scale(1.1)';
-  });
-
-  scrollToTopBtn.addEventListener('mouseleave', function() {
-    this.style.backgroundColor = '#007bff';
-    this.style.transform = 'scale(1)';
-  });
+    // Scroll to top when clicked with smooth animation
+    scrollToTopBtn.addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+      
+      // Add pulse animation on click
+      this.style.transform = 'scale(0.9)';
+      setTimeout(() => {
+        this.style.transform = 'scale(1)';
+      }, 150);
+    });
+  }
 
   // ===========================
   // NAVBAR BACKGROUND ON SCROLL
@@ -247,6 +219,18 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         navbar.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
       }
+    });
+  }
+
+  // ===========================
+  // PARALLAX EFFECT FOR HERO SECTION
+  // ===========================
+  const heroSection = document.querySelector('.hero-home');
+  if (heroSection) {
+    window.addEventListener('scroll', function() {
+      const scrolled = window.pageYOffset;
+      const parallaxSpeed = 0.5;
+      heroSection.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
     });
   }
 
@@ -264,6 +248,18 @@ document.addEventListener('DOMContentLoaded', function() {
   // LOADING ANIMATION
   // ===========================
   window.addEventListener('load', function() {
+    // Remove page loader if it exists
+    const pageLoader = document.querySelector('.page-loader');
+    if (pageLoader) {
+      setTimeout(() => {
+        pageLoader.classList.add('hidden');
+        setTimeout(() => {
+          pageLoader.remove();
+        }, 500);
+      }, 300);
+    }
+    
+    // Fade in body content
     document.body.style.opacity = '0';
     setTimeout(function() {
       document.body.style.transition = 'opacity 0.5s ease';

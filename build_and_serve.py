@@ -44,14 +44,16 @@ def read_include(name, frontmatter=None):
         else:
             content = re.sub(r'{% if page\.description %}.*?{% else %}(.*?){% endif %}', r'\1', content, flags=re.DOTALL)
         
-        # Handle Typed.js conditional
-        if use_typed:
+        # Handle Typed.js conditional (handles both page.layout and page.use_typed)
+        layout = frontmatter.get('layout', '')
+        if layout == 'home' or use_typed:
             # Remove only the liquid tags, keeping everything between them
-            # Use non-greedy match and replace with captured group
-            content = re.sub(r'{% if page\.use_typed %}\n', '', content)
-            content = re.sub(r'\n[ ]*{% endif %}', '', content)
+            content = re.sub(r"{% if page\.layout == 'home' or page\.use_typed %}\n?", '', content)
+            content = re.sub(r'{% if page\.use_typed %}\n?', '', content)
+            content = re.sub(r'\n?[ ]*{% endif %}', '', content)
         else:
             # Remove the entire Typed.js section including the script
+            content = re.sub(r"{% if page\.layout == 'home' or page\.use_typed %}.*?{% endif %}", '', content, flags=re.DOTALL)
             content = re.sub(r'{% if page\.use_typed %}.*?{% endif %}', '', content, flags=re.DOTALL)
         
         content = content.replace('{{ site.description }}', 'Graduate student in Mathematical Sciences')
@@ -217,7 +219,7 @@ def build_site():
         output_path.parent.mkdir(parents=True, exist_ok=True)
         output_path.write_text(output_html, encoding='utf-8')
     
-    print(f'\n✅ Site built in {OUTPUT_DIR}')
+    print(f'\nSite built in {OUTPUT_DIR}')
 
 if __name__ == '__main__':
     import sys
