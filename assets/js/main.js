@@ -84,6 +84,28 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // ===========================
+  // BACKGROUND CAROUSEL FOR SPLIT-SCREEN HERO
+  // ===========================
+  const carouselSlides = document.querySelectorAll('.carousel-slide');
+  if (carouselSlides.length > 0) {
+    let currentSlide = 0;
+    
+    function showNextSlide() {
+      // Remove active class from current slide
+      carouselSlides[currentSlide].classList.remove('active');
+      
+      // Move to next slide
+      currentSlide = (currentSlide + 1) % carouselSlides.length;
+      
+      // Add active class to new slide
+      carouselSlides[currentSlide].classList.add('active');
+    }
+    
+    // Change slide every 5 seconds
+    setInterval(showNextSlide, 5000);
+  }
+
+  // ===========================
   // MOBILE MENU TOGGLE
   // ===========================
   const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
