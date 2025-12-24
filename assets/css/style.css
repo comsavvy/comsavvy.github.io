@@ -1126,6 +1126,39 @@ main {
   100% { transform: rotate(0deg); }
 }
 
+/* Page Load Animations */
+.fade-in {
+  animation: fadeInUp 0.8s ease;
+}
+
+.fade-in-delay {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease 0.2s forwards;
+}
+
+.card-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.timeline-animate {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: slideInLeft 0.6s ease forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .intro-text {
   font-size: 1.1rem;
   line-height: 1.8;
