@@ -1667,14 +1667,15 @@ main {
 }
 
 .skill-card-back {
-  background: linear-gradient(135deg, #007bff, #38bdf8);
-  color: #ffffff;
+  background-color: var(--card-bg);
+  color: var(--card-text);
   transform: rotateY(180deg);
   overflow-y: auto;
   text-align: left;
   justify-content: flex-start;
   padding: 1.3rem;
   z-index: 1;
+  border: 2px solid var(--primary-blue);
 }
 
 .skill-card-front .skill-icon {
@@ -1703,8 +1704,8 @@ main {
 .skill-card-back h3 {
   font-size: 1.1rem;
   margin-bottom: 0.6rem;
-  color: #ffffff;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  color: var(--primary-blue);
+  border-bottom: 2px solid var(--primary-blue);
   padding-bottom: 0.3rem;
   font-weight: 600;
 }
@@ -1713,13 +1714,13 @@ main {
   font-size: 0.82rem;
   line-height: 1.4;
   margin-bottom: 0.4rem;
-  color: #ffffff;
+  color: var(--card-text);
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
 .skill-card-back strong {
-  color: #ffffff;
+  color: var(--primary-blue);
   font-weight: 700;
   display: block;
   margin-bottom: 0.2rem;
