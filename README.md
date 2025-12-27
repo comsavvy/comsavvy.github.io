@@ -6,7 +6,7 @@ Data Scientist | Graduate Student in Mathematical Sciences at AIMS Kigali
 
 I am an adept data scientist with over five years of experience exploring, detecting, and analyzing data to drive strategic decision-making and deliver innovative solutions. Currently pursuing my M.Sc. in Mathematical Sciences at the African Institute for Mathematical Sciences (AIMS) Kigali, I specialize in statistical machine learning, theoretical statistics, and theoretical computer science.
 
-My journey in data science is rooted in a strong academic foundation—I hold a B.Sc. in Statistics from the Federal University of Agriculture, Abeokuta, Nigeria, where I graduated with First Class Honors. I was also recognized as the overall best-performing student in my department and received multiple scholarships for online skills acquisition.
+I hold a B.Sc. (Ed.) in Computer Science from the University of Ilorin, Nigeria, where I graduated as the best student in the Department of Educational Technology in 2023. Throughout my academic and professional journey, I have continuously expanded my expertise through various online certifications and specialized training programs in data analytics, machine learning, and AI.
 
 I am passionate about leveraging mathematical rigor and computational tools to develop solutions to real-world problems. Beyond my technical work, I actively contribute to the data science community through volunteering and participating in data analytics programs, machine learning events, and AI professional gatherings, both as a facilitator and member. I believe in giving back to society and helping upcoming data professionals.
 
