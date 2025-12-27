@@ -237,8 +237,36 @@ if __name__ == '__main__':
     import http.server
     import socketserver
     
-    PORT = 8080
-    Handler = http.server.SimpleHTTPRequestHandler
+    PORT = 8081
+    
+    # Custom handler to serve 404.html for missing pages
+    class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
+        def end_headers(self):
+            # Add CORS headers for local development
+            self.send_header('Access-Control-Allow-Origin', '*')
+            super().end_headers()
+        
+        def send_error(self, code, message=None):
+            """Override to serve custom 404 page"""
+            if code == 404:
+                try:
+                    # Try to serve the custom 404.html page
+                    with open('404.html', 'rb') as f:
+                        content = f.read()
+                    
+                    self.send_response(404)
+                    self.send_header('Content-type', 'text/html; charset=utf-8')
+                    self.send_header('Content-Length', str(len(content)))
+                    self.end_headers()
+                    self.wfile.write(content)
+                    return
+                except:
+                    pass
+            
+            # Fall back to default error handling for other errors
+            super().send_error(code, message)
+    
+    Handler = CustomHTTPRequestHandler
     
     with socketserver.TCPServer(("", PORT), Handler) as httpd:
         print(f"Server running at http://localhost:{PORT}")
