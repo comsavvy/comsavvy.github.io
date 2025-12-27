@@ -1,14 +1,19 @@
 # Site settings
 title: Olusola Timothy Ogundepo
-description: Senior Software Engineer | AI/ML Specialist | Cloud Solutions Architect
+description: Data Scientist | Python Expert | AI/ML Specialist
 author: Olusola Timothy Ogundepo
-email: your-email@example.com
-url: "" # the base hostname & protocol for your site
+email: olusolaogundepo@gmail.com
+url: "https://comsavvy.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing
 exclude:
@@ -20,12 +25,6 @@ exclude:
   - .jekyll-cache
   - gemfiles
   - README.md
-  - DARK-MODE-FEATURES.md
-  - DEPLOYMENT.md
-  - TEMPLATE-OPTIONS.md
-  - TRANSFORMATION-SUMMARY.md
-  - assets/css/style-old.css
-  - assets/js/main-old.js
 
 # Include files
 include:
