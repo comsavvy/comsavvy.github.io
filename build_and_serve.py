@@ -268,6 +268,9 @@ if __name__ == '__main__':
     
     Handler = CustomHTTPRequestHandler
     
+    # Allow socket reuse to avoid "Address already in use" errors
+    socketserver.TCPServer.allow_reuse_address = True
+    
     with socketserver.TCPServer(("", PORT), Handler) as httpd:
         print(f"Server running at http://localhost:{PORT}")
         print("Press Ctrl+C to stop")
