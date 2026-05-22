@@ -101,8 +101,8 @@ document.addEventListener('DOMContentLoaded', function() {
       carouselSlides[currentSlide].classList.add('active');
     }
     
-    // Change slide every 5 seconds
-    setInterval(showNextSlide, 5000);
+    // Change slide every 4 seconds
+    setInterval(showNextSlide, 4000);
   }
 
   // ===========================
