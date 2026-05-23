@@ -1,14 +1,14 @@
 <nav class="navbar">
   <div class="nav-container">
     <a class="brand" href="{{ site.baseurl }}/">
-      <img src="{{ site.baseurl }}/assets/images/web-logo.png" alt="Logo" class="logo">
+      <img src="{{ site.baseurl }}/assets/images/web-logo.png" alt="Logo" class="logo" decoding="async">
     </a>
     <ul class="nav-links">
       <li><a href="{{ site.baseurl }}/" {% if page.title == 'Home' or page.url == '/' %}class="active"{% endif %}>Home</a></li>
       <li><a href="{{ site.baseurl }}/about/" {% if page.title == 'About' %}class="active"{% endif %}>About</a></li>
       <li><a href="{{ site.baseurl }}/news/" {% if page.title == 'News & Updates' or page.title == 'News' %}class="active"{% endif %}>News</a></li>
       <li class="dropdown">
-        <a href="#" class="dropbtn">Credentials <span class="arrow">▼</span></a>
+        <a href="#" class="dropbtn" aria-haspopup="true" aria-expanded="false">Credentials <span class="arrow" aria-hidden="true">▼</span></a>
         <div class="dropdown-content">
           <a href="{{ site.baseurl }}/skills/" {% if page.title == 'Skills' %}class="active"{% endif %}>Skills</a>
           <a href="{{ site.baseurl }}/projects/" {% if page.title == 'Projects' %}class="active"{% endif %}>Projects</a>

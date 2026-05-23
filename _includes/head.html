@@ -1,22 +1,29 @@
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#00346D" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
   <meta name="google-site-verification" content="-6Xl4yixxTQ3o0dDosrFcnv8HXK-FLvGpMxzOXaomow" />
   <title>{% if page.title %}{{ page.title }} | {% endif %}Olusola Timothy Ogundepo</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  
+
+  {% assign og_img = page.og_image | default: 'assets/images/Professional1.jpg' %}
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}Olusola Timothy Ogundepo">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="{{ site.baseurl }}/assets/images/web-logo.png">
-  
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{{ og_img }}">
+  <meta property="og:image:alt" content="Olusola Timothy Ogundepo">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@comsavvy_ogp">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}Olusola Timothy Ogundepo">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/{{ og_img }}">
   
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
@@ -24,7 +31,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
   
   {% if page.layout == 'home' or page.use_typed %}
   <!-- Typed.js for typing animation -->

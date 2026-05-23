@@ -59,7 +59,33 @@ def read_include(name, frontmatter=None):
         content = content.replace('{{ site.description }}', 'Graduate student in Mathematical Sciences')
         content = content.replace('{{ site.url }}', '')
         content = content.replace('{{ page.url }}', '/')
-    
+
+    # Resolve {% assign var = page.x | default: 'literal' %} by storing the default
+    # then substituting {{ var }} with it. Good enough for the simple defaults we use.
+    assigns = {}
+    def _capture_assign(m):
+        assigns[m.group(1)] = m.group(2)
+        return ''
+    content = re.sub(
+        r"{%\s*assign\s+(\w+)\s*=\s*page\.\w+\s*\|\s*default:\s*'([^']*)'\s*%}\n?",
+        _capture_assign,
+        content,
+    )
+    for name, value in assigns.items():
+        content = content.replace('{{ ' + name + ' }}', value)
+
+    # Generic {{ site.time | date: '...' }} substitution using the current date
+    from datetime import datetime
+    now = datetime.now()
+    def _site_time(m):
+        fmt = m.group(1)
+        return now.strftime(fmt)
+    content = re.sub(
+        r"{{\s*site\.time\s*\|\s*date:\s*'([^']+)'\s*}}",
+        _site_time,
+        content,
+    )
+
     return content
 
 def read_layout(name):

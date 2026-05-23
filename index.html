@@ -11,23 +11,33 @@ twitter_username: "@comsavvy_ogp"
 <main class="hero-home-split">
   <!-- Left Side: Background Carousel -->
   <div class="hero-left">
-    <div class="background-carousel">
-      <div class="carousel-slide active" style="background-image: url('assets/images/Professional1.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Professional1-Sideview.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Professional-Fullview-Holding-Suit.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Professional-Photo-Smile-Sitting-In-front-of-Laptop-1.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Professional-Photo-Smile-Sitting-In-front-of-Laptop-2.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Mastercard-day-Personal-Photo.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Mastercard-day-picture-with-friends.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/AIMS-Remera-with-Kenny-and-Fare.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Cultural-Day@AIMS-My_Presentation.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Farewell-day-for-Prof-Ernest-and-Prof-Zoe-Watt.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Quantum-Event-Meeting@AIMS-with-Debbie-Tutors-Students.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Career-Fair-Event-When-I-Raised-Important_Questions.jpg');"></div>
-      <div class="carousel-slide" style="background-image: url('assets/images/Writing-Important-Notes-at-Career_Fair_Event.jpg');"></div>
+    <div class="background-carousel" aria-hidden="true">
+      <div class="carousel-slide active" style="background-image: url('assets/images/Professional1.jpg'); --focal: center 25%;" data-quote="Where rigour meets purpose."></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Professional1-Sideview.jpg'); --focal: center 25%;" data-quote="The best way to predict the future is to invent it." data-author="Alan Kay"></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Professional-Fullview-Holding-Suit.jpg'); --focal: center 25%;" data-quote="Dressed for the work; anchored in the why."></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Professional-Photo-Smile-Sitting-In-front-of-Laptop-1.jpg'); --focal: center 20%;" data-quote="Every dataset tells a story; my work is to listen."></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Professional-Photo-Smile-Sitting-In-front-of-Laptop-2.jpg'); --focal: center 35%;" data-quote="Models are mirrors. Calibrate them honestly."></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Mastercard-day-Personal-Photo.jpg'); --focal: center 40%;" data-quote="A scholarship is a community's quiet bet on a promise."></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Mastercard-day-picture-with-friends.jpg'); --focal: center 50%;" data-quote="If you want to go far, go together." data-author="African proverb"></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/AIMS-Remera-with-Kenny-and-Fare.jpg'); --focal: center 40%;" data-quote="At AIMS, friendship became the second curriculum."></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Cultural-Day@AIMS-My_Presentation.jpg'); --focal: center 40%;" data-quote="I came carrying my language; I left carrying a continent."></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Farewell-day-for-Prof-Ernest-and-Prof-Zoe-Watt.jpg'); --focal: center 40%;" data-quote="If I have seen further, it is by standing on the shoulders of giants." data-author="Isaac Newton"></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Quantum-Event-Meeting@AIMS-with-Debbie-Tutors-Students.jpg'); --focal: center 50%;" data-quote="The frontier is rarely crossed alone."></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Career-Fair-Event-When-I-Raised-Important_Questions.jpg'); --focal: center 30%;" data-quote="The important thing is not to stop questioning." data-author="Albert Einstein"></div>
+      <div class="carousel-slide" style="background-image: url('assets/images/Writing-Important-Notes-at-Career_Fair_Event.jpg'); --focal: center 40%;" data-quote="Every note I take is a promise to my future self."></div>
     </div>
     <div class="carousel-overlay"></div>
     <div class="geometric-pattern"></div>
+    <figure class="carousel-caption" aria-live="polite">
+      <blockquote class="carousel-quote"></blockquote>
+      <figcaption class="carousel-author"></figcaption>
+    </figure>
+    <button class="carousel-arrow carousel-prev" type="button" aria-label="Previous image">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="carousel-arrow carousel-next" type="button" aria-label="Next image">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
   </div>
 
   <!-- Right Side: Profile & Content -->
@@ -36,7 +46,7 @@ twitter_username: "@comsavvy_ogp"
       <!-- Profile Image -->
       <div class="profile-image-container">
         <div class="profile-image-border">
-          <img src="assets/images/Professional2.jpg" alt="Olusola Timothy Ogundepo" class="profile-image">
+          <img src="assets/images/Professional2.jpg" alt="Olusola Timothy Ogundepo" class="profile-image" loading="eager" fetchpriority="high" decoding="async">
         </div>
       </div>
 

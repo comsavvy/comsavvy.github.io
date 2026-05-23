@@ -17,43 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
   if (themeIcon) {
     themeIcon.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
   }
-  
-  // Function to update contact card styles
-  function updateContactCards(theme) {
-    const contactCards = document.querySelectorAll('.contact-card');
-    contactCards.forEach(card => {
-      if (theme === 'dark') {
-        card.style.background = '#1e293b';
-        card.style.color = '#38bdf8';
-        card.style.borderColor = '#38bdf8';
-      } else {
-        card.style.background = 'white';
-        card.style.color = '#007bff';
-        card.style.borderColor = '#007bff';
-      }
-    });
-  }
-  
-  // Apply theme to contact cards on page load
-  updateContactCards(currentTheme);
-  
+
   // Theme toggle functionality
   if (themeToggle) {
     themeToggle.addEventListener('click', function() {
       const theme = htmlElement.getAttribute('data-theme');
       const newTheme = theme === 'light' ? 'dark' : 'light';
-      
+
       htmlElement.setAttribute('data-theme', newTheme);
       localStorage.setItem('theme', newTheme);
-      
+
       // Update icon
       if (themeIcon) {
         themeIcon.textContent = newTheme === 'dark' ? '☀️' : '🌙';
       }
-      
-      // Update contact cards
-      updateContactCards(newTheme);
-      
+
       // Add a ripple effect
       this.style.transform = 'scale(0.95)';
       setTimeout(() => {
@@ -89,20 +67,56 @@ document.addEventListener('DOMContentLoaded', function() {
   const carouselSlides = document.querySelectorAll('.carousel-slide');
   if (carouselSlides.length > 0) {
     let currentSlide = 0;
-    
-    function showNextSlide() {
-      // Remove active class from current slide
-      carouselSlides[currentSlide].classList.remove('active');
-      
-      // Move to next slide
-      currentSlide = (currentSlide + 1) % carouselSlides.length;
-      
-      // Add active class to new slide
-      carouselSlides[currentSlide].classList.add('active');
+    let autoTimer = null;
+
+    const captionEl = document.querySelector('.carousel-caption');
+    const quoteEl = document.querySelector('.carousel-quote');
+    const authorEl = document.querySelector('.carousel-author');
+
+    function updateCaption(slide) {
+      if (!captionEl || !quoteEl) return;
+      const quote = slide.getAttribute('data-quote') || '';
+      const author = slide.getAttribute('data-author') || '';
+      // fade out immediately, then wait for the slide cross-fade to take hold
+      // before swapping text and fading the new caption in
+      captionEl.classList.remove('is-visible');
+      setTimeout(() => {
+        quoteEl.textContent = quote;
+        if (authorEl) authorEl.textContent = author;
+        if (quote) captionEl.classList.add('is-visible');
+      }, 1100);
     }
-    
-    // Change slide every 4 seconds
-    setInterval(showNextSlide, 4000);
+
+    function goToSlide(index) {
+      carouselSlides[currentSlide].classList.remove('active');
+      currentSlide = (index + carouselSlides.length) % carouselSlides.length;
+      carouselSlides[currentSlide].classList.add('active');
+      updateCaption(carouselSlides[currentSlide]);
+    }
+
+    function showNextSlide() { goToSlide(currentSlide + 1); }
+    function showPrevSlide() { goToSlide(currentSlide - 1); }
+
+    // initial caption for the first active slide
+    updateCaption(carouselSlides[currentSlide]);
+
+    // Respect reduced-motion preference, otherwise advance every 6s (longer so quotes can be read)
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    function startAuto() {
+      if (!reduceMotion.matches) {
+        autoTimer = setInterval(showNextSlide, 6000);
+      }
+    }
+    function resetAuto() {
+      if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+      startAuto();
+    }
+    startAuto();
+
+    const prevBtn = document.querySelector('.carousel-prev');
+    const nextBtn = document.querySelector('.carousel-next');
+    if (prevBtn) prevBtn.addEventListener('click', () => { showPrevSlide(); resetAuto(); });
+    if (nextBtn) nextBtn.addEventListener('click', () => { showNextSlide(); resetAuto(); });
   }
 
   // ===========================
@@ -145,8 +159,16 @@ document.addEventListener('DOMContentLoaded', function() {
         dropbtn.addEventListener('click', function(e) {
           if (window.innerWidth <= 768) {
             e.preventDefault();
-            dropdown.classList.toggle('active');
+            const isOpen = dropdown.classList.toggle('active');
+            dropbtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
           }
+        });
+        // keep ARIA accurate when desktop hover opens the dropdown
+        dropdown.addEventListener('mouseenter', () => {
+          if (window.innerWidth > 768) dropbtn.setAttribute('aria-expanded', 'true');
+        });
+        dropdown.addEventListener('mouseleave', () => {
+          if (window.innerWidth > 768) dropbtn.setAttribute('aria-expanded', 'false');
         });
       }
     }
@@ -302,33 +324,36 @@ document.addEventListener('DOMContentLoaded', function() {
 // ===========================
 function toggleCertCategory(header) {
   // Toggle active state on header
-  header.classList.toggle('active');
-  
+  const isOpen = header.classList.toggle('active');
+
   // Get the body element
   const body = header.nextElementSibling;
-  
+
   // Toggle active state on body
   body.classList.toggle('active');
-  
-  // Close other accordions (optional - for single open at a time)
-  // Uncomment below if you want only one accordion open at a time
-  /*
-  const allHeaders = document.querySelectorAll('.cert-category-header');
-  const allBodies = document.querySelectorAll('.cert-category-body');
-  
-  allHeaders.forEach(h => {
-    if (h !== header && h.classList.contains('active')) {
-      h.classList.remove('active');
-    }
-  });
-  
-  allBodies.forEach(b => {
-    if (b !== body && b.classList.contains('active')) {
-      b.classList.remove('active');
-    }
-  });
-  */
+
+  // Keep ARIA in sync for screen readers
+  header.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
 }
+
+// a11y: make accordion headers keyboard-operable
+document.querySelectorAll('.cert-category-header').forEach((header, idx) => {
+  header.setAttribute('role', 'button');
+  header.setAttribute('tabindex', '0');
+  header.setAttribute('aria-expanded', 'false');
+  const body = header.nextElementSibling;
+  if (body) {
+    const bodyId = body.id || `cert-body-${idx}`;
+    body.id = bodyId;
+    header.setAttribute('aria-controls', bodyId);
+  }
+  header.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleCertCategory(this);
+    }
+  });
+});
 
 // ===========================
 // SCROLL REVEAL ANIMATIONS
@@ -358,18 +383,29 @@ revealElements.forEach(element => {
 const skillCards = document.querySelectorAll('.skill-card-flip');
 
 skillCards.forEach(card => {
-  card.addEventListener('click', function(e) {
+  // a11y: make each flip card keyboard-focusable and announce its toggle state
+  card.setAttribute('role', 'button');
+  card.setAttribute('tabindex', '0');
+  card.setAttribute('aria-pressed', 'false');
+
+  const toggle = function (e) {
     e.stopPropagation();
-    
-    // Remove is-flipped from all other cards
     skillCards.forEach(otherCard => {
       if (otherCard !== card) {
         otherCard.classList.remove('is-flipped');
+        otherCard.setAttribute('aria-pressed', 'false');
       }
     });
-    
-    // Toggle current card
-    this.classList.toggle('is-flipped');
+    const flipped = card.classList.toggle('is-flipped');
+    card.setAttribute('aria-pressed', flipped ? 'true' : 'false');
+  };
+
+  card.addEventListener('click', toggle);
+  card.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggle(e);
+    }
   });
 });
 
@@ -378,6 +414,7 @@ document.addEventListener('click', function(e) {
   if (!e.target.closest('.skill-card-flip')) {
     skillCards.forEach(card => {
       card.classList.remove('is-flipped');
+      card.setAttribute('aria-pressed', 'false');
     });
   }
 });

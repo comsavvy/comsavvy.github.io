@@ -252,7 +252,8 @@ main {
   transition: transform var(--transition-fast);
 }
 
-.dropdown:hover .arrow {
+.dropdown:hover .arrow,
+.dropdown.active .arrow {
   transform: rotate(180deg);
 }
 
@@ -566,7 +567,8 @@ main {
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center;
+  /* per-slide focal point: override with style="--focal: center top;" on individual slides */
+  background-position: var(--focal, center 30%);
   opacity: 0;
   transition: opacity 2s ease-in-out;
   animation: kenburns 20s ease-in-out infinite;
@@ -606,6 +608,171 @@ main {
   background-size: 80px 80px;
   z-index: 3;
   opacity: 0.3;
+}
+
+/* Carousel prev/next arrows */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  opacity: 0;
+}
+
+.hero-left:hover .carousel-arrow,
+.carousel-arrow:focus-visible {
+  opacity: 1;
+}
+
+.carousel-arrow:hover {
+  background: rgba(0, 123, 255, 0.85);
+  border-color: #fff;
+}
+
+.carousel-arrow:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.carousel-arrow:active {
+  transform: translateY(-50%) scale(0.94);
+}
+
+.carousel-arrow svg {
+  width: 22px;
+  height: 22px;
+}
+
+.carousel-prev { left: 0.9rem; }
+.carousel-next { right: 0.9rem; }
+
+@media (max-width: 768px) {
+  .carousel-arrow {
+    opacity: 1;
+    width: 38px;
+    height: 38px;
+  }
+  .carousel-arrow svg { width: 18px; height: 18px; }
+}
+
+/* Carousel caption (per-slide quote) */
+.hero-left::after {
+  /* soft readability scrim, tinted to match the blue overlay */
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40%;
+  background: linear-gradient(to top, rgba(0, 52, 109, 0.55) 0%, rgba(0, 52, 109, 0.2) 55%, rgba(0, 52, 109, 0) 100%);
+  z-index: 3;
+  pointer-events: none;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: clamp(1.25rem, 3vw, 2.5rem);
+  right: clamp(1.25rem, 3vw, 2.5rem);
+  bottom: clamp(1.5rem, 4vh, 2.75rem);
+  z-index: 4;
+  margin: 0;
+  padding: 0 0 0 0.95rem;
+  border-left: 2px solid rgba(56, 189, 248, 0.85);
+  color: #eaf4ff;
+  max-width: 34rem;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  text-shadow: 0 1px 10px rgba(0, 30, 70, 0.55);
+}
+
+.carousel-caption.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.carousel-quote {
+  margin: 0;
+  font-family: 'Playfair Display', 'Georgia', 'Cambria', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.15rem, 1.75vw, 1.6rem);
+  line-height: 1.4;
+  letter-spacing: 0.005em;
+  quotes: "\201C" "\201D";
+}
+
+.carousel-quote::before {
+  content: open-quote;
+  margin-right: 0.1em;
+  color: #38bdf8;
+  opacity: 0.95;
+}
+
+.carousel-quote::after {
+  content: close-quote;
+  margin-left: 0.08em;
+  color: #38bdf8;
+  opacity: 0.95;
+}
+
+.carousel-quote:empty::before,
+.carousel-quote:empty::after {
+  content: none;
+}
+
+.carousel-author {
+  margin-top: 0.6rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #38bdf8;
+  opacity: 0.85;
+}
+
+.carousel-author:empty {
+  display: none;
+}
+
+.carousel-author::before {
+  content: "\2014\00a0";
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    padding-left: 0.8rem;
+    border-left-width: 2px;
+  }
+  .carousel-quote { font-size: 1.05rem; line-height: 1.4; }
+  .carousel-author { font-size: 0.65rem; letter-spacing: 0.16em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-caption {
+    transition: opacity 0.2s ease;
+    transform: none;
+  }
 }
 
 /* Right Side - Profile & Content */
@@ -673,7 +840,7 @@ main {
 }
 
 .main-name-new {
-  font-size: 2.5rem;
+  font-size: clamp(1.85rem, 4.5vw, 2.75rem);
   font-weight: 800;
   color: var(--primary-blue);
   margin-bottom: 1rem;
@@ -688,7 +855,7 @@ main {
 }
 
 .tagline-new {
-  font-size: 1.05rem;
+  font-size: clamp(0.98rem, 1.4vw, 1.1rem);
   color: var(--text-dark);
   line-height: 1.7;
   margin-bottom: 2rem;
@@ -840,10 +1007,6 @@ main {
     padding: 3rem 1.5rem;
   }
 
-  .main-name-new {
-    font-size: 2rem;
-  }
-
   .quick-stats {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.75rem;
@@ -872,10 +1035,6 @@ main {
     height: 150px;
   }
 
-  .main-name-new {
-    font-size: 1.75rem;
-  }
-
   .quick-stats {
     gap: 0.5rem;
   }
@@ -898,10 +1057,6 @@ main {
   .profile-image {
     width: 130px;
     height: 130px;
-  }
-
-  .main-name-new {
-    font-size: 1.5rem;
   }
 
   .greeting-new {
@@ -932,14 +1087,14 @@ main {
 }
 
 .page-header h1 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;
   color: var(--primary-blue);
   margin-bottom: 0.5rem;
 }
 
 .subtitle {
-  font-size: 1.3rem;
+  font-size: clamp(1rem, 1.7vw, 1.3rem);
   color: var(--text-gray);
   margin-top: 0.5rem;
 }
@@ -2444,11 +2599,62 @@ body:not(.dark-mode) .cta-banner-link:hover {
   margin-top: 1rem;
 }
 
-/* Dark Mode - Contact Cards */
-body.dark-mode .contact-card {
-  background: var(--card-bg) !important;
-  color: var(--accent-color) !important;
-  border-color: var(--accent-color) !important;
+/* Contact page cards */
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-lead {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contact-methods {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  color: var(--primary-blue);
+  border: 2px solid var(--primary-blue);
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card strong {
+  display: block;
+  font-size: 1.1rem;
+}
+
+.contact-card:hover,
+.contact-card:focus-visible {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="dark"] .contact-card {
+  background: var(--card-bg);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/* keep the hover look identical in both themes (blue fill, white text) */
+[data-theme="dark"] .contact-card:hover,
+[data-theme="dark"] .contact-card:focus-visible {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+  border-color: var(--primary-blue);
 }
 
 /* ===========================
@@ -2586,6 +2792,12 @@ body.dark-mode .contact-card {
   margin: 0.2rem 0;
   font-size: 0.85rem;
   color: #cbd5e1;
+}
+
+.footer-bottom .last-updated {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  opacity: 0.8;
 }
 
 .footer-credits {
@@ -2794,6 +3006,52 @@ button:focus {
   .about-content {
     grid-template-columns: 250px 1fr;
     gap: 2rem;
+  }
+}
+
+/* iPad portrait / small laptops fill the gap between 1024 and 768 */
+@media (max-width: 960px) and (min-width: 769px) {
+  .hero-home-split {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-left {
+    min-height: 45vh;
+  }
+
+  .about-content,
+  .about-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-hero-image img {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .quick-links-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .journey-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .skills-grid.flip-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .featured-certs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-methods {
+    grid-template-columns: 1fr;
   }
 }
 
