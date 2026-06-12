@@ -2310,7 +2310,7 @@ main {
   border-left: 4px solid var(--primary-blue);
   position: relative;
   overflow: hidden;
-  height: 480px;
+  min-height: 480px;
   display: flex;
   flex-direction: column;
 }
@@ -2517,7 +2517,6 @@ body:not(.dark-mode) .cta-banner-link:hover {
   line-height: 1.5;
   margin-bottom: 1rem;
   flex: 1;
-  overflow-y: auto;
   font-size: 0.95rem;
 }
 
